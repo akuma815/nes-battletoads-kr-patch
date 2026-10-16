@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "release_stage": "release",
+  "status": "PASS: patch reverse-verified and apply helper tested",
+  "distribution_policy": "single ROM patch, Japan revision only, oversize AxROM 512KiB",
+  "contains_original_game_files": false,
+  "release_date": "20260816",
+  "patches": [
+    {
+      "id": "JP",
+      "rom": "Battletoads (Japan).nes",
+      "mapper": 7,
+      "patch": "Battletoads_KR_20260816.xdelta",
+      "patch_size": 13537,
+      "patch_sha256": "18ef9becedf3ed8f0988e666c5ebca1019219328983e2c920158a439d116e3df",
+      "source_size": 262160,
+      "source_sha256": "b831f75c36eef329a34d0e0d9308cdf85864edd87e7da6d8e408307f8bf402d8",
+      "target_size": 524304,
+      "target_sha256": "300d7a335e404fcba4522d21ab58af1dc77140dd7c4a6de4ea7331e50b6e5090",
+      "reverse_verification": "PASS"
+    }
+  ],
+  "coverage": {
+    "title_logo_translated": true,
+    "briefings_translated": 116,
+    "briefings_kept_original": [
+      116
+    ],
+    "fixed_translated": 16,
+    "fixed_kept_original": 29
+  },
+  "verification": {
+    "build_gates": "PASS: 117/117 decode roundtrip, slot/width/pool limits",
+    "emulator": "Mesen 2: final ROM 11000-frame flow, title logo/menu, briefing call, level-name hook / BizHawk 2.11.2: final ROM boot, title logo/menu, start flow",
+    "hardware": "not applicable (oversize AxROM, stock boards unsupported)"
+  }
+}

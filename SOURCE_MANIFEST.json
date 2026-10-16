@@ -1,0 +1,282 @@
+{
+  "date": "2026-10-16",
+  "project": "배틀토드",
+  "files": [
+    {
+      "path": "docs/HANDOFF_2026-08-16.md",
+      "source": "docs/HANDOFF_2026-08-16.md",
+      "bytes": 27702,
+      "sha256": "0555ae4e6659f557315b4535184a37cd2e62f7c4abd6ddcbb7e5aa4e976ef82d"
+    },
+    {
+      "path": "workspace/font/poc_glyph_preview.txt",
+      "source": "workspace/font/poc_glyph_preview.txt",
+      "bytes": 186,
+      "sha256": "8221e97acd34d54ff0f4fd7a29baaadbec8758813621e75c85e4f46c5371f5e0"
+    },
+    {
+      "path": "workspace/scripts/analyze_rom.py",
+      "source": "workspace/scripts/analyze_rom.py",
+      "bytes": 3342,
+      "sha256": "026a7e5ed59776afa325157c112a52171b103edf1d132d8483a30376c150f9ea"
+    },
+    {
+      "path": "workspace/scripts/btlib.py",
+      "source": "workspace/scripts/btlib.py",
+      "bytes": 4702,
+      "sha256": "bc04ef6b86452be26ea5e6404549ac4712a25952eca52d734fb9c3949d55bbbd"
+    },
+    {
+      "path": "workspace/scripts/build_all.py",
+      "source": "workspace/scripts/build_all.py",
+      "bytes": 19038,
+      "sha256": "705111db68ff0d615e5dd7f162241453f3a2ec7ba9ae7d27746c6a83d356b2b0"
+    },
+    {
+      "path": "workspace/scripts/dis6502.py",
+      "source": "workspace/scripts/dis6502.py",
+      "bytes": 5730,
+      "sha256": "62c807556dc9500339b52a8bf8436cf8478ab91d53df7ef33a764b8c3b32cb27"
+    },
+    {
+      "path": "workspace/scripts/extract_artifacts.py",
+      "source": "workspace/scripts/extract_artifacts.py",
+      "bytes": 3071,
+      "sha256": "f71b864dd452919a4884a667c5c621995bcb244eac106f34a3caaa7b82fa0673"
+    },
+    {
+      "path": "workspace/scripts/extract_text.py",
+      "source": "workspace/scripts/extract_text.py",
+      "bytes": 3786,
+      "sha256": "e6ab465a47fe13b68c06547d84e1823160209fcef3e37ecdfdc7bc4dea47132b"
+    },
+    {
+      "path": "workspace/scripts/free_space.py",
+      "source": "workspace/scripts/free_space.py",
+      "bytes": 1589,
+      "sha256": "a6bad66265eb95f8d262f1b0e68550a39dabeb2feede779d4471ce1a199c6019"
+    },
+    {
+      "path": "workspace/scripts/kr_encoding.py",
+      "source": "workspace/scripts/kr_encoding.py",
+      "bytes": 6588,
+      "sha256": "30553845ea46b0f1ac1a265dee8e08e9a374875a8f6d9cc263fd9ab5692e36d2"
+    },
+    {
+      "path": "workspace/scripts/make_dist.py",
+      "source": "workspace/scripts/make_dist.py",
+      "bytes": 12466,
+      "sha256": "68ad499561eddc3b79476b3bb019fa28a889f75e5940b3069e02bcf38fa759b6"
+    },
+    {
+      "path": "workspace/scripts/make_poc_glyph.py",
+      "source": "workspace/scripts/make_poc_glyph.py",
+      "bytes": 2594,
+      "sha256": "9d4aa533e894483ba051b7f33b84322addd9c915170a7e2c280dfe16ef3913ff"
+    },
+    {
+      "path": "workspace/scripts/make_poc_sentence.py",
+      "source": "workspace/scripts/make_poc_sentence.py",
+      "bytes": 5644,
+      "sha256": "0e671021506848d110a5cfd70252910b5fa3614ba846b374fdda190eff3cc8a2"
+    },
+    {
+      "path": "workspace/scripts/make_stage_end_states.py",
+      "source": "workspace/scripts/make_stage_end_states.py",
+      "bytes": 3210,
+      "sha256": "e52edf8d5597609a9ed15d1f6fe34e1a016110240042a7e9ddb640d38af63dca"
+    },
+    {
+      "path": "workspace/scripts/make_stage_qa.py",
+      "source": "workspace/scripts/make_stage_qa.py",
+      "bytes": 7451,
+      "sha256": "5f291711278a58c28f51e4483c81c5fbe3752f11dae89b0e0d6b3399925e07e9"
+    },
+    {
+      "path": "workspace/scripts/probe_attract.py",
+      "source": "workspace/scripts/probe_attract.py",
+      "bytes": 1310,
+      "sha256": "a5a3efbe060d92091d8a5da223ccddeabc251ca7b269be0e8d1456418ba9ddfa"
+    },
+    {
+      "path": "workspace/scripts/probe_attract_upload.py",
+      "source": "workspace/scripts/probe_attract_upload.py",
+      "bytes": 1290,
+      "sha256": "0aabae890b70fa6aa3d513e2f9def8d48069bebf0268b0feef5a0a9028a2aa3e"
+    },
+    {
+      "path": "workspace/scripts/probe_font_decoder.py",
+      "source": "workspace/scripts/probe_font_decoder.py",
+      "bytes": 2608,
+      "sha256": "16f7aa70c41cbeb3d9487ea156d93e011a2706a44fdc7f1c38fe44b72f91d8af"
+    },
+    {
+      "path": "workspace/scripts/probe_glyph_upload.py",
+      "source": "workspace/scripts/probe_glyph_upload.py",
+      "bytes": 745,
+      "sha256": "006e6b427b63a851d7ec04cef6de507d3850ba54f6aa86ddad39ba97610fc980"
+    },
+    {
+      "path": "workspace/scripts/probe_huffman.py",
+      "source": "workspace/scripts/probe_huffman.py",
+      "bytes": 1737,
+      "sha256": "b8dcd1865a0f484d996094d32e112b39746333b595ab75963be0e731ee03c49b"
+    },
+    {
+      "path": "workspace/scripts/probe_story.py",
+      "source": "workspace/scripts/probe_story.py",
+      "bytes": 3399,
+      "sha256": "06274a301cc1af43d89817b3c4763a6656402f3dec1d9a76af0f765de69458eb"
+    },
+    {
+      "path": "workspace/scripts/probe_upload.py",
+      "source": "workspace/scripts/probe_upload.py",
+      "bytes": 1474,
+      "sha256": "3263a991909f29f932c4ee770c2f768c4e6a23be0b47129b8db174ba00a48d75"
+    },
+    {
+      "path": "workspace/scripts/roundtrip.py",
+      "source": "workspace/scripts/roundtrip.py",
+      "bytes": 3038,
+      "sha256": "63651081aaea9e8f3739e42c74779ca36968b30ead930662f61974c6abeacf76"
+    },
+    {
+      "path": "workspace/scripts/run_qa.py",
+      "source": "workspace/scripts/run_qa.py",
+      "bytes": 5885,
+      "sha256": "60dac988046e0ae0739871c372a907e9e5e374ad5a6c24104085abd3cc74b729"
+    },
+    {
+      "path": "workspace/scripts/stats_korean.py",
+      "source": "workspace/scripts/stats_korean.py",
+      "bytes": 6503,
+      "sha256": "8817370d8db955d60560a6f2f3778906d0e59de238408d9861f02028382996eb"
+    },
+    {
+      "path": "workspace/scripts/title_logo.py",
+      "source": "workspace/scripts/title_logo.py",
+      "bytes": 16204,
+      "sha256": "ff87b3fe534ad66695c9cb9e88c942cf30136f3b5cbe7742e05b729686f098f3"
+    },
+    {
+      "path": "workspace/scripts/verify_stage_end_states.py",
+      "source": "workspace/scripts/verify_stage_end_states.py",
+      "bytes": 3056,
+      "sha256": "8f98008c09ed06f5e1d3a1b786128547bd5fbaf099809f1e56537ccdc9a1251f"
+    },
+    {
+      "path": "workspace/scripts/verify_stage_qa.py",
+      "source": "workspace/scripts/verify_stage_qa.py",
+      "bytes": 4716,
+      "sha256": "22fd6fab774fa106e83ad4647cb6ce5a27006bad532fea601bb11c48566a19e7"
+    },
+    {
+      "path": "workspace/tests/bizhawk_qa.lua",
+      "source": "workspace/tests/bizhawk_qa.lua",
+      "bytes": 734,
+      "sha256": "04746ad0c05e405138c4fd72a39fc9fe25da4eb636f4eb3d15019076f745d791"
+    },
+    {
+      "path": "workspace/tests/debug_flow.lua",
+      "source": "workspace/tests/debug_flow.lua",
+      "bytes": 1863,
+      "sha256": "9f0f2bf4c7e081d865cd6efd684138a2886081438c73f34d8f08038fee6f0dff"
+    },
+    {
+      "path": "workspace/tests/debug_hang.lua",
+      "source": "workspace/tests/debug_hang.lua",
+      "bytes": 2307,
+      "sha256": "d3ad7bf1499cb2f8cff1f8be95a5d83a13b22becec6a019cb5434644b55d4059"
+    },
+    {
+      "path": "workspace/tests/debug_lv5name.lua",
+      "source": "workspace/tests/debug_lv5name.lua",
+      "bytes": 1138,
+      "sha256": "a968fd8b5cfa29942d1321b63b245693b9fa3650a08734e8cc51ce98e7e37fb8"
+    },
+    {
+      "path": "workspace/tests/diag_ending.lua",
+      "source": "workspace/tests/diag_ending.lua",
+      "bytes": 1642,
+      "sha256": "4eb003dc71d7e3b470b1438f2bc1d48dc46b5b15d5f4db1b12d899a4dcfaff7e"
+    },
+    {
+      "path": "workspace/tests/diag_state1_nt.lua",
+      "source": "workspace/tests/diag_state1_nt.lua",
+      "bytes": 1583,
+      "sha256": "a105482515336973e3344b499403e268054fb34aa9a7977149287b472c7d1a89"
+    },
+    {
+      "path": "workspace/tests/diag_state2.lua",
+      "source": "workspace/tests/diag_state2.lua",
+      "bytes": 2482,
+      "sha256": "8852168e880698a04faf54fe57bb8b8f9817a139e77f32d6f3e2b3344ffe1349"
+    },
+    {
+      "path": "workspace/tests/dump_from_state.lua",
+      "source": "workspace/tests/dump_from_state.lua",
+      "bytes": 2201,
+      "sha256": "02706c45de904ceb375b9e59656282fde6bfe0364675a05ed5968440fda35809"
+    },
+    {
+      "path": "workspace/tests/dump_stage5.lua",
+      "source": "workspace/tests/dump_stage5.lua",
+      "bytes": 1457,
+      "sha256": "c59c310321aa9dd897badeb28d67633581e6bddc8429ed8455cfdbabfdcc8f56"
+    },
+    {
+      "path": "workspace/tests/dump_surf.lua",
+      "source": "workspace/tests/dump_surf.lua",
+      "bytes": 1482,
+      "sha256": "390bd3fb3c728e8f8f6583a457cc72eaaa1dac6c78d2dbe9ec22f7b91aaece42"
+    },
+    {
+      "path": "workspace/tests/dump_surf2.lua",
+      "source": "workspace/tests/dump_surf2.lua",
+      "bytes": 1906,
+      "sha256": "ce29f68cef8c2d9f1871cc7e84ff509ed1b06d7c70d0e72fe85f0f077a5a55dc"
+    },
+    {
+      "path": "workspace/tests/dump_transition45.lua",
+      "source": "workspace/tests/dump_transition45.lua",
+      "bytes": 1970,
+      "sha256": "6b51c41c1c578030c3c4a477f04c11a44b63e1f1cce68e18807530b3131e7ac8"
+    },
+    {
+      "path": "workspace/tests/force_id117.lua",
+      "source": "workspace/tests/force_id117.lua",
+      "bytes": 1253,
+      "sha256": "14e660d093879efe51bb06aed85bb35599c1845f993702e8ab4eca61a19b24e9"
+    },
+    {
+      "path": "workspace/tests/title_logo_probe.lua",
+      "source": "workspace/tests/title_logo_probe.lua",
+      "bytes": 1666,
+      "sha256": "cc2e2a7745c11a1bb340c4d83760cb2c7c621fdf4b59b11f29672c2436c73d5f"
+    },
+    {
+      "path": "workspace/tests/title_logo_trace.lua",
+      "source": "workspace/tests/title_logo_trace.lua",
+      "bytes": 2508,
+      "sha256": "4233d71eb1ab8c867aa6198c0c7c9862de7c5985aba2524c14e5c20450e32d74"
+    },
+    {
+      "path": "workspace/text/translation/terminology.md",
+      "source": "workspace/text/translation/terminology.md",
+      "bytes": 2773,
+      "sha256": "0da41d8af76c728738b41a823d3acf410efb2315cc88de07736a3dcb9bddf2b2"
+    },
+    {
+      "path": "workspace/text/translation/translation.json",
+      "source": "workspace/text/translation/translation.json",
+      "bytes": 32376,
+      "sha256": "4bcdd96252ca4b1a8df11d72b4e8baacf952c78d8383e7cc28291b2db59fb457"
+    },
+    {
+      "path": "docs/PROJECT_NOTES.md",
+      "source": "README.md",
+      "bytes": 2773,
+      "sha256": "6b262779a0b1508b5e80fdd3bd473917d5ef4cb8485aa5bf82ab51d300ff6485"
+    }
+  ]
+}

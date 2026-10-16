@@ -1,0 +1,1520 @@
+{
+ "meta": {
+  "baseline_rom_sha256": "B831F75C36EEF329A34D0E0D9308CDF85864EDD87E7DA6D8E408307F8BF402D8",
+  "source_files": [
+   "../source/briefings.json",
+   "../source/fixed_strings.json"
+  ],
+  "terminology": "terminology.md (전 항목 인간 승인 대기)",
+  "policy": "briefings.ko = 표시 줄 목록(제어 토큰 없음). 빌드가 첫 줄을 리터럴 공백으로, 이후 줄을 {fc}{nl:N}으로 센터링 변환하고 원문 후행 빈 줄 수를 보존한다. ko의 '?'는 심볼 0x22, '､'는 0xA4, '･'는 0xA5로 매핑한다. fixed.ko는 byte_len 이하의 단일 문자열(제자리 교체).",
+  "status_values": [
+   "untranslated",
+   "in_progress",
+   "needs_review",
+   "needs_human_review",
+   "distribution_eligible",
+   "excluded"
+  ],
+  "draft_provenance": "2026-08-16 현 세션 에이전트 초안(translation-workflow §3.1). 인간 검토 전 배포 부적격.",
+  "human_review": "2026-08-16 사용자 검토·승인: 1차 122건 + 재조정 3건 + 신규 12건(id 104~115). QA에서 결함 발견 시 해당 엔트리 자격 회수.",
+  "denominator_note": "2026-08-16 세션7: 분모 104->117 교정(게임오버/엔딩 12건 + 레벨명 테이블). 신규 12건은 사용자 검토 대기."
+ },
+ "briefings": [
+  {
+   "id": 0,
+   "ko": [
+    "RASH! ZITZ! 큰일이다!",
+    "PIMPLE과 ANGELICA공주가",
+    "DARK QUEEN에게 납치되었다!",
+    "둘은 전함 GARGANTUA에 있는 듯하다",
+    "둘을 구출해다오!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "화자 T.Bird. POC-3에서 표시 검증 완료"
+  },
+  {
+   "id": 1,
+   "ko": [
+    "RASH:좋아! 꼭 둘을 구해내겠어!",
+    "ZITZ:그럼 바로----------",
+    "작전 개시합니다! 교수님!",
+    "어서 GARGANTUA에 쳐들어가자!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 2,
+   "ko": [
+    "-----------------",
+    "-DARK QUEEN-",
+    "흥! 그리 허둥대지 마라 개구리들!",
+    "내가 직접 손을 쓰기 전에､ 이",
+    "BIG-BLAG과 ROBO-MANUS가",
+    "상대해 주겠다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "원문은 구분선+명판이 한 줄에 제어와 섞임. 줄 구조 재편"
+  },
+  {
+   "id": 3,
+   "ko": [
+    "------",
+    "둘을 구하고 싶다면 이놈들을",
+    "쓰러뜨리고 내가 있는 곳까지",
+    "와 보시지! 아-핫핫핫!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 4,
+   "ko": [
+    "교수:GARGANTUA를 발견했다!",
+    "RAGNAROK WORLD의 지하다!",
+    "DARK QUEEN도 거기 있는 듯하다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 5,
+   "ko": [
+    "TURBO-CABLE을 타고",
+    "행성으로 강하한다!",
+    "준비해라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 6,
+   "ko": [
+    "잘 들어라! 내가 GARGANTUA까지의",
+    "경로를 지시하겠다!",
+    "그대로 따라와라!",
+    "서둘러라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 7,
+   "ko": [
+    "적도 사정없이 덤벼들 거다!",
+    "PSYKO-PIGS와",
+    "WALKERS를 조심해라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 8,
+   "ko": [
+    "으윽! 이놈들! 감히 나의",
+    "TALL-WALKER를",
+    "쓰러뜨리다니!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "화자 Dark Queen"
+  },
+  {
+   "id": 9,
+   "ko": [
+    "T.BIRD 교수!",
+    "네 개구리들 제법이구나!",
+    "이번엔 BIRDS OF PREY가 상대다!",
+    "개구리들이 어디까지 버티는지",
+    "천천히 구경해 주마!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "원문 6줄을 5줄로 재편"
+  },
+  {
+   "id": 10,
+   "ko": [
+    "아무리 너희라 해도",
+    "내가 이 큰 구멍에 설치한",
+    "수많은 함정을",
+    "피할 수는 없을 거다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 11,
+   "ko": [
+    "이리 오너라 개구리들!",
+    "이 큰 구멍의 어둠 속으로!",
+    "함정에 걸리지 않게",
+    "기도라도 하시지!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 12,
+   "ko": [
+    "전방에 큰 구멍이 있다",
+    "TURBO-CABLE로",
+    "그 구멍을 내려가는 거다",
+    "RASH! ZITZ!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 13,
+   "ko": [
+    "탐지기에 따르면",
+    "그 구멍의 깊이는",
+    "약 1MILE이다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 14,
+   "ko": [
+    "위험한 함정이 잔뜩",
+    "설치되어 있다! 게다가",
+    "적은 까마귀들만이",
+    "아닌 모양이다"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 15,
+   "ko": [
+    "1MILE의 수직 강하다!",
+    "신중하게 내려가라!",
+    "조심해라!",
+    "DARK QUEEN에게 너희의",
+    "용기를 보여줘라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 16,
+   "ko": [
+    "용케도 그 큰 구멍을 무사히",
+    "빠져나왔구나 개구리들!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 17,
+   "ko": [
+    "구멍을 빠져나왔다고",
+    "우쭐대지 마라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 18,
+   "ko": [
+    "아직 갈 길이",
+    "멀다고!",
+    "자! 서두르지 않으면 승산이",
+    "사라질걸!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 19,
+   "ko": [
+    "MUTANT-RAT에게 당하기 전에",
+    "항복하는 게 어때?",
+    "개구리들!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 20,
+   "ko": [
+    "MUTANT-RAT이",
+    "다가오고 있다!",
+    "때려눕혀라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 21,
+   "ko": [
+    "탐지기에 따르면 전방에",
+    "SPEED-BIKE가 있다!",
+    "그걸 타고 전진해라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 22,
+   "ko": [
+    "여기선 SPEED가 승부다!",
+    "RASH!ZITZ!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 23,
+   "ko": [
+    "번개처럼",
+    "초고속으로",
+    "돌진하는 거다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 24,
+   "ko": [
+    "OH--! TURBO TUNNEL을",
+    "잘도 빠져나온 모양이구나!",
+    "그렇다면 다음은 얼음 동굴이다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 25,
+   "ko": [
+    "SPEED-BIKE를 쓰면",
+    "제법 잘 나는 모양이다만",
+    "여기선 그리 안 될걸!",
+    "BATTLETOADS!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 26,
+   "ko": [
+    "너희의 그 흉한 몰골을",
+    "얼음 바닥과 고드름으로",
+    "납작하게 만들어 주마!",
+    "개구리들!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 27,
+   "ko": [
+    "너희를 얼음에 가둬서",
+    "두 번 다시 지상에 못 나오게 해주지!",
+    "각오해라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 28,
+   "ko": [
+    "이곳 기온은 영하다",
+    "무슨 일이 일어날지 모른다",
+    "발밑을 조심하며 전진해라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 29,
+   "ko": [
+    "천천히 전진해라!",
+    "천천히 가지 않으면 미끄러져서",
+    "저세상행이다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 30,
+   "ko": [
+    "자! 추위에 지지 마라!",
+    "IT'S SHOW TIME!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 31,
+   "ko": [
+    "이 얼마나 추운 곳이냐!",
+    "이런 곳에 계속 있다간",
+    "얼어붙고 만다",
+    "빨리 빠져나가라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 32,
+   "ko": [
+    "어라?",
+    "SURFIN을 할 셈이냐?",
+    "아-핫핫핫! 이거 재밌군!",
+    "개구리가 SURFIN이라니!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 33,
+   "ko": [
+    "좋은 걸 알려주지",
+    "강에 떠 있는 폭탄을",
+    "조심하라고!",
+    "소용돌이도 말이야!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 34,
+   "ko": [
+    "뭐 느긋하게",
+    "SURFIN이나 즐기시지!",
+    "이게 너희의 마지막",
+    "SPORTS가 될 테니까!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 35,
+   "ko": [
+    "만에 하나라도",
+    "너희가 강을 건너는 데",
+    "성공한다면 상으로",
+    "BIG-BLAG과 대결시켜 주마!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 36,
+   "ko": [
+    "잘하고 있구나!",
+    "여기만 잘 헤쳐나가면",
+    "DARK QUEEN 따위",
+    "무섭지 않다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 37,
+   "ko": [
+    "기합을 넣어라!",
+    "파도를 잘 타는 거다!",
+    "RASH!ZITZ!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 38,
+   "ko": [
+    "GO! GO!",
+    "BATTLETOADS!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 39,
+   "ko": [
+    "강만 조심하면 된다!",
+    "BIG-BLAG 따위",
+    "일격에 해치워라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 40,
+   "ko": [
+    "이제 포기하시지 개구리들!",
+    "너희가 SNAKE PIT을",
+    "넘는 건 불가능하다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 41,
+   "ko": [
+    "개구리의 최대 천적이",
+    "뱀이라던데 정말이냐?",
+    "뭐 곧 알게 되겠지만!",
+    "아-핫핫핫!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 42,
+   "ko": [
+    "너희에게 이",
+    "뱀 구멍을 빠져나갈 용기가",
+    "있느냐? 개구리들!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 43,
+   "ko": [
+    "뭐라고?! BIG-BLAG을",
+    "쓰러뜨렸다고?! 용서 못 한다",
+    "너희를 뱀 먹이로 만들어 주마"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 44,
+   "ko": [
+    "야호-이! 상태는 어떠냐",
+    "BATTLETOAD!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 45,
+   "ko": [
+    "탐지기에 따르면",
+    "커다란 뱀이",
+    "너희 쪽으로",
+    "다가오고 있다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 46,
+   "ko": [
+    "어떻게든 뱀의 등에",
+    "올라타서 위로 올라가라!",
+    "단단히 붙잡아라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 47,
+   "ko": [
+    "이곳의 출구는",
+    "위쪽뿐이다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 48,
+   "ko": [
+    "자기들 딴에는",
+    "잘하고 있다고 여기겠지",
+    "얄미운 개구리들!",
+    "하지만 이제부터가 진짜다!",
+    "각오해 두시지!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 49,
+   "ko": [
+    "다음은",
+    "FIRE ZONE이다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 50,
+   "ko": [
+    "타 죽어 버려라!BATTLETOAD!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 51,
+   "ko": [
+    "너희 따위 용암 속에",
+    "녹아 버리면 그만이다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 52,
+   "ko": [
+    "서둘러 빠져나가라",
+    "BATTLETOAD!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 53,
+   "ko": [
+    "이런 곳에서",
+    "꾸물거릴 틈은 없다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 54,
+   "ko": [
+    "비행기에 올라타서",
+    "용암 탄환을 피해라!",
+    "GOAL까지 NON STOP으로",
+    "돌진하는 거다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 55,
+   "ko": [
+    "방심하다간",
+    "용암의 열기에",
+    "새까맣게 타 버린다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 56,
+   "ko": [
+    "호--!",
+    "용암의 불꽃에",
+    "당해 버린 줄 알았더니",
+    "의외로 끈질긴 놈들이군!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 57,
+   "ko": [
+    "전함 GARGANTUA까지는",
+    "아직도 멀었다",
+    "우쭐대지 마라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 58,
+   "ko": [
+    "ELEVATOR SHAFT의",
+    "최상층에는",
+    "ROBO-MANUS가",
+    "너희를 기다린다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 59,
+   "ko": [
+    "ELEVATOR SHAFT에서",
+    "곤두박질쳐서",
+    "떨어져 버려라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 60,
+   "ko": [
+    "이런 곳쯤이야",
+    "단숨에 올라가 버려라",
+    "GO!GO!BATTLETOAD!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 61,
+   "ko": [
+    "GARGANTUA는",
+    "여기만 다 오르면",
+    "바로 근처에 보일 거다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 62,
+   "ko": [
+    "VULTURE호의 탐지기는",
+    "이미 GARGANTUA를",
+    "발견했다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 63,
+   "ko": [
+    "서둘러 위로 올라가라!",
+    "BATTLETOAD!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 64,
+   "ko": [
+    "빌어먹을!",
+    "감히 ROBO-MANUS까지",
+    "쓰러뜨리다니!",
+    "개구리들!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 65,
+   "ko": [
+    "GARGANTUA의",
+    "입구는 전부 닫아 두었다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 66,
+   "ko": [
+    "GARGANTUA에 들어가는 건",
+    "너희에겐 불가능하다!",
+    "여기까지 온",
+    "너희의 노력은",
+    "전부 물거품이 되는 거다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 67,
+   "ko": [
+    "죽고 싶지 않다면",
+    "포기하고 썩 물러가시지!",
+    "이 이상 나에게",
+    "대들 생각이라면",
+    "용서하지 않겠다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 68,
+   "ko": [
+    "GARGANTUA에",
+    "침입하려면",
+    "배수구를 쓸 수밖에 없다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 69,
+   "ko": [
+    "GARGANTUA의",
+    "배수구를 통해",
+    "침입해라!",
+    "하지만 함정을 조심해라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 70,
+   "ko": [
+    "배수구는 미로처럼 되어 있다",
+    "게다가 함정도 잔뜩 있다!",
+    "신중하게 전진해라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 71,
+   "ko": [
+    "배수구 말고는",
+    "GARGANTUA에",
+    "침입할 길이 없다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 72,
+   "ko": [
+    "설마 그런 곳으로",
+    "들어올 줄이야!",
+    "BATTLETOAD!",
+    "지금까지 나에게 저지른 무례",
+    "그 대가를 여기서 치르게 주마!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 73,
+   "ko": [
+    "전함 GARGANTUA에는",
+    "이미 시한폭탄을",
+    "설치해 두었다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 74,
+   "ko": [
+    "폭탄을 부수지 않는 한",
+    "너희는 GARGANTUA와 함께",
+    "산산조각이다!",
+    "하-핫핫핫!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "원문 오타 GARAGANTUA 교정(NOTE-01)"
+  },
+  {
+   "id": 75,
+   "ko": [
+    "자 천국까지",
+    "초대해 주지!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 76,
+   "ko": [
+    "BATTLETOAD!",
+    "폭탄은",
+    "배 밑바닥 쪽에 있다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 77,
+   "ko": [
+    "계속 아래로",
+    "내려가는 거다!",
+    "폭탄은 3개나 있다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 78,
+   "ko": [
+    "폭탄이 하나라도",
+    "터진다면",
+    "너희는 천국행이다!",
+    "서둘러라!BATTLETOAD!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 79,
+   "ko": [
+    "적 쥐새끼들을",
+    "쓸어버리고",
+    "배 밑바닥까지 내려가라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 80,
+   "ko": [
+    "또 일을 저질러 줬구나!",
+    "개구리들!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "화자 Dark Queen. ﾔﾘｵｯﾀﾅ=분한 어감(칭찬 아님). 폭탄 무력화 직후 반응"
+  },
+  {
+   "id": 81,
+   "ko": [
+    "세상에!",
+    "3개의 폭탄을 전부",
+    "멈춰 버리다니!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 82,
+   "ko": [
+    "아직 끝난 게 아니다!",
+    "이 ｢CLINGER-WINGER｣를",
+    "빠져나가기 전까지는!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 83,
+   "ko": [
+    "여기서 너희는",
+    "힘이 다할 거다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 84,
+   "ko": [
+    "｢CLINGER-WINGER｣는",
+    "외발자전거다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 85,
+   "ko": [
+    "적을 조심하면서",
+    "외발자전거를 붙잡고 이동해라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 86,
+   "ko": [
+    "너희라면 반드시",
+    "｢CLINGER-WINGER｣를",
+    "타낼 수 있다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 87,
+   "ko": [
+    "DARK QUEEN!",
+    "나의 BATTLETOAD들은",
+    "이 정도 함정으로는",
+    "쓰러지지 않는다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "화자 T.Bird가 여왕에게"
+  },
+  {
+   "id": 88,
+   "ko": [
+    "이럴 수가!",
+    "지금껏 나에게 맞선 자 중에",
+    "여기까지 온 놈은 없었는데!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 89,
+   "ko": [
+    "나 정말 화가 났다!",
+    "이 우주의 지배자",
+    "DARK QUEEN님이",
+    "직접 너희의",
+    "상대가 되어 주마!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 90,
+   "ko": [
+    "이 탑의 최상층에서",
+    "너희를 기다리마!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 91,
+   "ko": [
+    "피차 이것이",
+    "마지막 싸움이 될 것이다!",
+    "BATTLETOAD!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 92,
+   "ko": [
+    "아무래도",
+    "DARK QUEEN이",
+    "본색을 드러낸 모양이다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 93,
+   "ko": [
+    "탑을 올라라!",
+    "BATTLETOAD!",
+    "그리고 DARK QUEEN과",
+    "대결하는 거다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "원문 오타 QUEEEN 교정(NOTE-01)"
+  },
+  {
+   "id": 94,
+   "ko": [
+    "힘내라､ 힘내라!",
+    "BATTLETOAD!",
+    "DARK QUEEN을",
+    "날려 버려라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 95,
+   "ko": [
+    "자! 드디어",
+    "PIMPLE과 ANGELICA공주를",
+    "구출할 때가",
+    "온 것 같다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 96,
+   "ko": [
+    "해냈다!",
+    "잘했다!BATTLETOAD!",
+    "최고다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 97,
+   "ko": [
+    "PIMPLE도 ANGELICA공주도",
+    "무사하고",
+    "더할 나위 없다!",
+    "역시 너희는",
+    "우주 최고의 개구리다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 98,
+   "ko": [
+    "그 DARK QUEEN을",
+    "보기 좋게 무찔러 버렸으니!",
+    "나는 정말로 기쁘다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 99,
+   "ko": [
+    "자 PARTY다!",
+    "다 같이 건배하자!",
+    "용감한 BATTLETOAD들에게!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 100,
+   "ko": [
+    "어이!",
+    "너희들!",
+    "무슨 일이냐!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "게임 오버 분기"
+  },
+  {
+   "id": 101,
+   "ko": [
+    "너희 모습이 안 보인다!",
+    "어이!",
+    "화면에 너희가",
+    "나오지 않는다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 102,
+   "ko": [
+    "이럴 수가! 당해 버리다니!",
+    "너희 말고",
+    "누가 PIMPLE과 공주를",
+    "구할 수 있단 말이냐!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 103,
+   "ko": [
+    "DARK QUEEN 이놈!",
+    "두고 보자!",
+    "다시 한번",
+    "도전해 주마!"
+   ],
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 104,
+   "ko": [
+    "좋아!ZITZ!RASH!",
+    "다시 한번 도전이다!",
+    "DARK QUEEN을 때려눕혀라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "게임오버 재도전, 화자 T.Bird"
+  },
+  {
+   "id": 105,
+   "ko": [
+    "너희에게는",
+    "너무 어려웠던 거냐?",
+    "아니 그럴 리가 없다!",
+    "재도전해라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "세션7 신규 초안(분모 교정으로 발견)"
+  },
+  {
+   "id": 106,
+   "ko": [
+    "벌써 힘이 다한 거냐?",
+    "아니 아직 승부는 남았다!",
+    "너희의 저력을 보여줘라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "세션7 신규 초안(분모 교정으로 발견)"
+  },
+  {
+   "id": 107,
+   "ko": [
+    "핫핫하! 역시 대단하다!",
+    "BATTLETOAD!",
+    "나는 믿고 있었다! 너희가",
+    "포기할 리가",
+    "없다고 말이다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "세션7 신규 초안(분모 교정으로 발견)"
+  },
+  {
+   "id": 108,
+   "ko": [
+    "오오! 가엾어라!",
+    "분해서 어쩌지?",
+    "뭐 처음부터 내가 이길 건",
+    "정해져 있었지만!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "게임오버 조롱, 화자 Dark Queen"
+  },
+  {
+   "id": 109,
+   "ko": [
+    "하-핫핫핫!",
+    "당연한 결과다!",
+    "결국 너희는 나약한",
+    "개구리였다는 거지!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "세션7 신규 초안(분모 교정으로 발견)"
+  },
+  {
+   "id": 110,
+   "ko": [
+    "여기까지 온 것도",
+    "그저 너희의",
+    "운이 좋았을 뿐이라고!",
+    "다시 한번 그 ｢운｣에",
+    "걸어 보시겠어?",
+    "뭐 몇 번을 해봐도",
+    "결과는 같겠지만!",
+    "하-핫핫핫!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "세션7 신규 초안(분모 교정으로 발견)"
+  },
+  {
+   "id": 111,
+   "ko": [
+    "실력 승부라면",
+    "언제든 상대해 주지!",
+    "그리고 내가 이기면",
+    "T.BIRD까지 너희와 함께",
+    "잡아먹어 줄 테니 각오해라!",
+    "하-핫핫핫!!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "세션7 신규 초안(분모 교정으로 발견)"
+  },
+  {
+   "id": 112,
+   "ko": [
+    "윽! 이 내가!",
+    "우주의 지배자 DARK QUEEN이",
+    "패배하다니!",
+    "하지만 기억하라 BATTLETOAD!",
+    "악은 정의보다 위대하고",
+    "어둠은 정의보다 강하다!",
+    "나는 절대 굴복하지 않는다!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "2026-08-16 슬롯 48 압축분 사용자 승인"
+  },
+  {
+   "id": 113,
+   "ko": [
+    "나는 언젠가 돌아온다!",
+    "그리고 그때야말로",
+    "너희를 몰살시켜 주마!",
+    "그때까지 기다리고 있어라!",
+    "BATTLETOAD!",
+    "이 여왕이 부활하는 날까지!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "세션7 신규 초안(분모 교정으로 발견)"
+  },
+  {
+   "id": 114,
+   "ko": [
+    "ROBO-MANUS! 한심한 놈!",
+    "내게 얼굴을 보여라!",
+    "고작 개구리 따위에게",
+    "머리가 깨지다니･･･",
+    "뭐 좋다",
+    "너도 BIG-BLAG도",
+    "금방 고쳐 주지"
+   ],
+   "status": "distribution_eligible",
+   "notes": "2026-08-16 슬롯 48 압축분 사용자 승인"
+  },
+  {
+   "id": 115,
+   "ko": [
+    "내 완벽한 방어 장치가",
+    "개구리 따위에게･･･",
+    "포기할 것 같으냐?",
+    "반드시 DARK QUEEN의 이름을",
+    "우주에 떨치리라!"
+   ],
+   "status": "distribution_eligible",
+   "notes": "2026-08-16 사용자 지정 문안(슬롯 46/48). 초상화 충돌 압축분 확정"
+  },
+  {
+   "id": 116,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-01 레벨 이름 테이블(13x18자) 원문 유지. 워킹셋 생략 특수 경로 - 원시 심볼 그대로 재인코드"
+  }
+ ],
+ "fixed": [
+  {
+   "id": 0,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 기호"
+  },
+  {
+   "id": 1,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 기호"
+  },
+  {
+   "id": 2,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 PRESENTS"
+  },
+  {
+   "id": 3,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 기호"
+  },
+  {
+   "id": 4,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 PRODUCTION"
+  },
+  {
+   "id": 5,
+   "ko": null,
+   "status": "excluded",
+   "notes": "공백 지우개 문자열"
+  },
+  {
+   "id": 6,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 저작권 표기"
+  },
+  {
+   "id": 7,
+   "ko": null,
+   "status": "excluded",
+   "notes": "공백 지우개 문자열"
+  },
+  {
+   "id": 8,
+   "ko": null,
+   "status": "excluded",
+   "notes": "공백 지우개 문자열"
+  },
+  {
+   "id": 9,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 로고 텍스트"
+  },
+  {
+   "id": 10,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 STARRING"
+  },
+  {
+   "id": 11,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 1 PLAYER"
+  },
+  {
+   "id": 12,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 2 PLAYERS"
+  },
+  {
+   "id": 13,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 PRESS START"
+  },
+  {
+   "id": 14,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 저작권 표기"
+  },
+  {
+   "id": 15,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 라이선스 표기"
+  },
+  {
+   "id": 16,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 크레딧"
+  },
+  {
+   "id": 17,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 LEVEL"
+  },
+  {
+   "id": 18,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 PLAYER"
+  },
+  {
+   "id": 19,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 GAME OVER"
+  },
+  {
+   "id": 20,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 PLAYER"
+  },
+  {
+   "id": 21,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 GAME OVER"
+  },
+  {
+   "id": 22,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 PRESS BUTTON"
+  },
+  {
+   "id": 23,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 TO CONTINUE"
+  },
+  {
+   "id": 24,
+   "ko": null,
+   "status": "excluded",
+   "notes": "기호 ("
+  },
+  {
+   "id": 25,
+   "ko": "허나･･･",
+   "status": "distribution_eligible",
+   "notes": "스토리 전환부 ｶﾞ･･･(하지만…). 5B 이내"
+  },
+  {
+   "id": 26,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 -STORY- 헤더 유지"
+  },
+  {
+   "id": 27,
+   "ko": "어느날 ANGELICA공주와 PIMPLE은",
+   "status": "distribution_eligible",
+   "notes": "23B 한도, 23B 사용"
+  },
+  {
+   "id": 28,
+   "ko": "BATTLETOADS별로 떠났습니다",
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 29,
+   "ko": "그곳엔 어둠의 여왕",
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 30,
+   "ko": "DARK QUEEN이 숨어 있다가",
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 31,
+   "ko": "두 사람을 잡아가",
+   "status": "distribution_eligible",
+   "notes": "2026-08-16 사용자 지정 문안(슬롯 제약 재조정 재승인)"
+  },
+  {
+   "id": 32,
+   "ko": "버렸습니다",
+   "status": "distribution_eligible",
+   "notes": "2026-08-16 사용자 지정 문안(슬롯 제약 재조정 재승인)"
+  },
+  {
+   "id": 33,
+   "ko": "한편 BATTLETOAD의",
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 34,
+   "ko": "기지인 우주선",
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 35,
+   "ko": "VULTURE호에서는･･･",
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 36,
+   "ko": "그리고 여왕의 전함",
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 37,
+   "ko": "GARGANTUA는",
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 38,
+   "ko": "은하의 미지의 공간",
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 39,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 ｢DARK ZONE｣ 유지"
+  },
+  {
+   "id": 40,
+   "ko": "에 있는 기지로",
+   "status": "distribution_eligible",
+   "notes": "8B 한도"
+  },
+  {
+   "id": 41,
+   "ko": "후퇴하였습니다･･･",
+   "status": "distribution_eligible",
+   "notes": null
+  },
+  {
+   "id": 42,
+   "ko": "복수를 위해･･･",
+   "status": "distribution_eligible",
+   "notes": "2026-08-16 사용자 지정 문안(슬롯 제약 재조정 재승인)"
+  },
+  {
+   "id": 43,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 치트 MEGA WARP"
+  },
+  {
+   "id": 44,
+   "ko": null,
+   "status": "excluded",
+   "notes": "TERM-02 치트 ADVANCE 2 LEVELS"
+  }
+ ]
+}
