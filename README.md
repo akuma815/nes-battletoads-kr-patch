@@ -4,6 +4,14 @@
 
 > **배포본 · 2026-08-16**
 
+<!-- game-preview:start -->
+<p align="center">
+  <img src="img/preview.png" alt="배틀토드 — 한글 타이틀" width="512">
+</p>
+
+**한글 타이틀** — final_release Mesen 캡처
+<!-- game-preview:end -->
+
 ## 다운로드 및 적용 방법
 
 1. 아래 체크섬 또는 상세 안내와 일치하는 원본을 준비합니다.

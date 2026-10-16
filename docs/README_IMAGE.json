@@ -1,0 +1,14 @@
+{
+  "src": "assets/screenshots/nes-battletoads-kr-patch.png",
+  "caption": "한글 타이틀",
+  "kind": "runtime",
+  "width": 256,
+  "height": 240,
+  "source": "Games/Battletoads/work/qa/final_release/mesen/f01500.png",
+  "sourceSHA256": "13181f7e0099b1b4523e3ece5babd7111d739128ea54c77c09678f87b0d07251",
+  "assetSHA256": "13181f7e0099b1b4523e3ece5babd7111d739128ea54c77c09678f87b0d07251",
+  "pixelSHA256": "5eec18300d6ac4237b764f25fa55af21d61c641117a7a0611d6d99fcbb77385a",
+  "sourceNote": "final_release Mesen 캡처",
+  "readmeAsset": "img/preview.png",
+  "displayNote": "final_release Mesen 캡처"
+}
