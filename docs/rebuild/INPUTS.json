@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-16",
+  "sourceSHA256": "b831f75c36eef329a34d0e0d9308cdf85864edd87e7da6d8e408307f8bf402d8",
+  "expectedFinalSHA256": "300d7a335e404fcba4522d21ab58af1dc77140dd7c4a6de4ea7331e50b6e5090",
+  "translationSHA256": "4bcdd96252ca4b1a8df11d72b4e8baacf952c78d8383e7cc28291b2db59fb457",
+  "requiredInputs": [
+    {
+      "path": "workspace/text/source/briefings.json",
+      "bytes": 46626,
+      "sha256": "46bdd3b9a074b9b6412287a578f108586850f1eb4ee70f06b59813d98eac690c"
+    },
+    {
+      "path": "workspace/text/source/fixed_strings.json",
+      "bytes": 8606,
+      "sha256": "111aafde7aead9d6fe526977b8fa2eb15a74e4b4abe4b23b98f59bb0db0bec59"
+    },
+    {
+      "path": "workspace/graphics/title_logo/title_logo_reference_custom_v1.png",
+      "bytes": 990666,
+      "sha256": "44fa622bcd2dede213c73613385694938b0fbdbb72d333dddb5613fc688adf8e"
+    },
+    {
+      "path": "workspace/graphics/title_logo/title_logo_concept_v8.png",
+      "bytes": 3261,
+      "sha256": "199163b8f7419e908a346122eaac1c4ff83bde5f70d382c20594f28103057d21"
+    },
+    {
+      "path": "inputs/Galmuri8x8.ttf",
+      "bytes": 146780,
+      "sha256": "97ba3dcc2cd5e5b2927e4e6ba9558a48a2a194a852c420df160654d66bbf2a05"
+    },
+    {
+      "path": "workspace/graphics/title_logo/title_layout.json",
+      "bytes": 8283,
+      "sha256": "9f9644412539a8aa7c446bcf98c6114c81a87ff57d5371cbd19f449ce8fa86a7"
+    }
+  ],
+  "originalROMIncluded": false,
+  "publicationReview": "Missing source JSON, approved custom artwork, OFL font and structured title tile layout; no supported credential patterns found."
+}

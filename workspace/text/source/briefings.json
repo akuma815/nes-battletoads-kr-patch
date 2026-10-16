@@ -1,0 +1,598 @@
+{
+ "table_id": "briefings",
+ "source": {
+  "system": "huffman-bank6",
+  "pointer_table": "$EA54",
+  "stream": "$EA90..$FAE4",
+  "rom_sha256": "B831F75C36EEF329A34D0E0D9308CDF85864EDD87E7DA6D8E408307F8BF402D8",
+  "terminator": "FD",
+  "notes": "엔트리 순서 = 스트림 순서. 자세한 구조는 workspace/analysis/SURVEY.md A2"
+ },
+ "entries": [
+  {
+   "entry_id": 0,
+   "sym_hex": "20 20 20 52 41 53 48 21 20 5A 49 54 5A 21 20 C0 B2 CD DD C0 DE 21 FC 83 50 49 4D 50 4C 45 C4 41 4E 47 45 4C 49 43 41 CB D2 B6 DE FC 84 44 41 52 4B 51 55 45 45 4E C6 D5 B3 B6 B2 BB DA C0 21 FC 81 CC C0 D8 CA BE DD B6 DD 47 41 52 47 41 4E 54 55 41 C6 B2 D9 D7 BC B2 FC 85 CC C0 D8 A6 20 B7 AD B3 BC AD C2 BC C3 B8 DA 21",
+   "text": "   RASH! ZITZ! ﾀｲﾍﾝﾀﾞ!{fc}{nl:3}PIMPLEﾄANGELICAﾋﾒｶﾞ{fc}{nl:4}DARKQUEENﾆﾕｳｶｲｻﾚﾀ!{fc}{nl:1}ﾌﾀﾘﾊｾﾝｶﾝGARGANTUAﾆｲﾙﾗｼｲ{fc}{nl:5}ﾌﾀﾘｦ ｷｭｳｼｭﾂｼﾃｸﾚ!"
+  },
+  {
+   "entry_id": 1,
+   "sym_hex": "52 41 53 48 3A D6 B3 BC 21 B6 C5 D7 BD DE CC C0 D8 A6 20 C0 BD B9 D9 BF DE 21 FC 80 5A 49 54 5A 3A BF DA BC DE AC B1 BB AF BF B8 B0 B0 B0 B0 B0 B0 B0 B0 B0 B0 B0 FC 84 BA B3 C4 DE B3 B6 B2 BC C0 DE 21 B7 AE B3 BC DE AD 21 FC 82 CA D4 B8 47 41 52 47 41 4E 54 55 41 CD C9 D8 BA D3 B3 BE DE 21",
+   "text": "RASH:ﾖｳｼ!ｶﾅﾗｽﾞﾌﾀﾘｦ ﾀｽｹﾙｿﾞ!{fc}{nl:0}ZITZ:ｿﾚｼﾞｬｱｻｯｿｸｰｰｰｰｰｰｰｰｰｰｰ{fc}{nl:4}ｺｳﾄﾞｳｶｲｼﾀﾞ!ｷｮｳｼﾞｭ!{fc}{nl:2}ﾊﾔｸGARGANTUAﾍﾉﾘｺﾓｳｾﾞ!"
+  },
+  {
+   "entry_id": 2,
+   "sym_hex": "20 20 20 20 B0 B0 B0 B0 B0 B0 B0 B0 B0 B0 B0 B0 B0 B0 B0 B0 B0 87 2D 44 41 52 4B 20 51 55 45 45 4E 2D 82 CC DD 21 20 BF DD C5 C6 B1 DC C3 D9 C5 20 B6 B4 D9 C4 DE D3 21 FC 81 DC C0 BC B6 DE C1 AE B8 BE C2 20 C3 A6 B8 C0 DE BD CF B4 C6 A4 BA C9 FC 82 42 49 47 2D 42 4C 41 47 C4 52 4F 42 4F 2D 4D 41 4E 55 53 B6 DE FC 89 B5 B1 B2 C3 BD D9 DC 21",
+   "text": "    ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ{nl:7}-DARK QUEEN-{nl:2}ﾌﾝ! ｿﾝﾅﾆｱﾜﾃﾙﾅ ｶｴﾙﾄﾞﾓ!{fc}{nl:1}ﾜﾀｼｶﾞﾁｮｸｾﾂ ﾃｦｸﾀﾞｽﾏｴﾆ､ｺﾉ{fc}{nl:2}BIG-BLAGﾄROBO-MANUSｶﾞ{fc}{nl:9}ｵｱｲﾃｽﾙﾜ!"
+  },
+  {
+   "entry_id": 3,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 B0 B0 B0 B0 B0 B0 83 CC C0 D8 A6 20 C0 BD B9 C0 B6 AF C0 D7 20 BA B2 C2 D7 A6 FC 85 C0 B5 BC C3 20 DC C0 BC C9 C4 BA DB CF C3 DE FC 83 D4 AF C3 B8 D9 BA C4 C0 DE C8 21 B1 2D AF CA AF CA AF 21",
+   "text": "         ｰｰｰｰｰｰ{nl:3}ﾌﾀﾘｦ ﾀｽｹﾀｶｯﾀﾗ ｺｲﾂﾗｦ{fc}{nl:5}ﾀｵｼﾃ ﾜﾀｼﾉﾄｺﾛﾏﾃﾞ{fc}{nl:3}ﾔｯﾃｸﾙｺﾄﾀﾞﾈ!ｱ-ｯﾊｯﾊｯ!"
+  },
+  {
+   "entry_id": 4,
+   "sym_hex": "B7 AE B3 BC DE AD 3A 47 41 52 47 41 4E 54 55 41 A6 CA AF B9 DD BC C0 BF DE 21 FC 82 52 41 47 4E 41 52 4F 4B 20 57 4F 52 4C 44 C9 20 C1 B6 C0 DE 21 FC 82 44 41 52 4B 20 51 55 45 45 4E D3 20 BF BA C6 B2 D9 D7 BC B2 21",
+   "text": "ｷｮｳｼﾞｭ:GARGANTUAｦﾊｯｹﾝｼﾀｿﾞ!{fc}{nl:2}RAGNAROK WORLDﾉ ﾁｶﾀﾞ!{fc}{nl:2}DARK QUEENﾓ ｿｺﾆｲﾙﾗｼｲ!"
+  },
+  {
+   "entry_id": 5,
+   "sym_hex": "20 20 20 20 54 55 52 42 4F 2D 43 41 42 4C 45 A6 C2 B6 AF C3 FC 85 DC B8 BE B2 CD 20 BA B3 B6 BD D9 DD C0 DE 21 FC 88 BC DE AD DD CB DE BC DB 21",
+   "text": "    TURBO-CABLEｦﾂｶｯﾃ{fc}{nl:5}ﾜｸｾｲﾍ ｺｳｶｽﾙﾝﾀﾞ!{fc}{nl:8}ｼﾞｭﾝﾋﾞｼﾛ!"
+  },
+  {
+   "entry_id": 6,
+   "sym_hex": "20 20 20 B2 B2 B6 21 DC BC B6 DE 47 41 52 47 41 4E 54 55 41 CD C9 FC 87 D0 C1 C9 D8 A6 20 BC BC DE BD D9 21 FC 86 BF DA C6 BF AF C3 20 BD BD D1 DD C0 DE 21 FC 8A CA D4 B8 BC DB 21",
+   "text": "   ｲｲｶ!ﾜｼｶﾞGARGANTUAﾍﾉ{fc}{nl:7}ﾐﾁﾉﾘｦ ｼｼﾞｽﾙ!{fc}{nl:6}ｿﾚﾆｿｯﾃ ｽｽﾑﾝﾀﾞ!{fc}{nl:10}ﾊﾔｸｼﾛ!"
+  },
+  {
+   "entry_id": 7,
+   "sym_hex": "20 20 20 C3 B7 D3 20 D6 B3 BC AC C5 B8 B5 BF AF C3 B8 D9 BF DE 21 FC 87 50 53 59 4B 4F 2D 50 49 47 53 D4 FC 83 57 41 4C 4B 45 52 53 C6 CA 20 B7 A6 C2 B9 D9 DD C0 DE 21",
+   "text": "   ﾃｷﾓ ﾖｳｼｬﾅｸｵｿｯﾃｸﾙｿﾞ!{fc}{nl:7}PSYKO-PIGSﾔ{fc}{nl:3}WALKERSﾆﾊ ｷｦﾂｹﾙﾝﾀﾞ!"
+  },
+  {
+   "entry_id": 8,
+   "sym_hex": "20 20 20 20 D1 2D 2D AF 21 B5 C9 DA 21 D6 B8 D3 DC C0 BC C9 FC 87 54 41 4C 4C 2D 57 41 4C 4B 45 52 A6 FC 88 C0 B5 BC C3 B8 DA C0 C8 21",
+   "text": "    ﾑ--ｯ!ｵﾉﾚ!ﾖｸﾓﾜﾀｼﾉ{fc}{nl:7}TALL-WALKERｦ{fc}{nl:8}ﾀｵｼﾃｸﾚﾀﾈ!"
+  },
+  {
+   "entry_id": 9,
+   "sym_hex": "20 20 20 20 20 20 54 2E 42 49 52 44 B7 AE B3 BC DE AD 21 FC 87 B5 CF B4 C9 20 B6 B4 D9 C4 DE D3 CA FC 83 C5 B6 C5 B6 D4 D9 BC DE AC C5 B2 B6 21 20 BA DD C4 DE CA FC 82 42 49 52 44 53 20 4F 46 20 50 52 45 59 B6 DE 20 B1 B2 C3 C0 DE 21 FC 83 B6 B4 D9 C4 DE D3 B6 DE 20 C4 DE BA CF C3 DE D4 DA D9 B6 FC 85 D5 AF B8 D8 20 B9 DD CC DE C2 BC C3 D4 D9 D6 21",
+   "text": "      T.BIRDｷｮｳｼﾞｭ!{fc}{nl:7}ｵﾏｴﾉ ｶｴﾙﾄﾞﾓﾊ{fc}{nl:3}ﾅｶﾅｶﾔﾙｼﾞｬﾅｲｶ! ｺﾝﾄﾞﾊ{fc}{nl:2}BIRDS OF PREYｶﾞ ｱｲﾃﾀﾞ!{fc}{nl:3}ｶｴﾙﾄﾞﾓｶﾞ ﾄﾞｺﾏﾃﾞﾔﾚﾙｶ{fc}{nl:5}ﾕｯｸﾘ ｹﾝﾌﾞﾂｼﾃﾔﾙﾖ!"
+  },
+  {
+   "entry_id": 10,
+   "sym_hex": "20 20 20 20 20 20 C0 C4 B4 20 B5 CF B4 C0 C1 C3 DE D3 FC 84 DC C0 BC B6 DE BA C9 B5 B5 B1 C5 C6 20 BC B6 B9 C0 FC 89 C0 B8 BB DD C9 DC C5 A6 FC 86 B6 DC BD BA C4 CA 20 C3 DE B7 C5 B2 DC 21",
+   "text": "      ﾀﾄｴ ｵﾏｴﾀﾁﾃﾞﾓ{fc}{nl:4}ﾜﾀｼｶﾞｺﾉｵｵｱﾅﾆ ｼｶｹﾀ{fc}{nl:9}ﾀｸｻﾝﾉﾜﾅｦ{fc}{nl:6}ｶﾜｽｺﾄﾊ ﾃﾞｷﾅｲﾜ!"
+  },
+  {
+   "entry_id": 11,
+   "sym_hex": "20 20 20 20 20 20 B5 B2 C3 DE 20 B6 B4 D9 C4 DE D3 21 FC 84 BA C9 B5 B5 B1 C5 C9 20 B8 D7 D4 D0 C9 C5 B6 CD 21 FC 85 BA BA C9 DC C5 C6 20 CB AF B6 B6 D7 C5 B2 D6 B3 FC 85 B5 B2 C9 D8 C3 DE D3 BD D9 BA C4 C0 DE C8 21",
+   "text": "      ｵｲﾃﾞ ｶｴﾙﾄﾞﾓ!{fc}{nl:4}ｺﾉｵｵｱﾅﾉ ｸﾗﾔﾐﾉﾅｶﾍ!{fc}{nl:5}ｺｺﾉﾜﾅﾆ ﾋｯｶｶﾗﾅｲﾖｳ{fc}{nl:5}ｵｲﾉﾘﾃﾞﾓｽﾙｺﾄﾀﾞﾈ!"
+  },
+  {
+   "entry_id": 12,
+   "sym_hex": "20 20 20 BE DE DD CE DF B3 C6 20 B5 B5 B7 C5 B1 C5 B6 DE B1 D9 FC 86 54 55 52 42 4F 2D 43 41 42 4C 45 C3 DE FC 86 BF C9 B1 C5 A6 20 B5 D8 C3 D5 B8 DD C0 DE FC 87 52 41 53 48 21 20 5A 49 54 5A 21",
+   "text": "   ｾﾞﾝﾎﾟｳﾆ ｵｵｷﾅｱﾅｶﾞｱﾙ{fc}{nl:6}TURBO-CABLEﾃﾞ{fc}{nl:6}ｿﾉｱﾅｦ ｵﾘﾃﾕｸﾝﾀﾞ{fc}{nl:7}RASH! ZITZ!"
+  },
+  {
+   "entry_id": 13,
+   "sym_hex": "20 20 20 20 20 20 20 20 C0 DD C1 B7 C6 D6 D9 C4 FC 88 BF C9 B1 C5 C9 CC B6 BB CA FC 87 D4 B8 20 31 4D 49 4C 45 C0 DE 21 FC FC",
+   "text": "        ﾀﾝﾁｷﾆﾖﾙﾄ{fc}{nl:8}ｿﾉｱﾅﾉﾌｶｻﾊ{fc}{nl:7}ﾔｸ 1MILEﾀﾞ!{fc}{fc}"
+  },
+  {
+   "entry_id": 14,
+   "sym_hex": "20 20 20 20 20 20 B7 B9 DD C5 20 DC C5 B6 DE C0 B8 BB DD FC 86 BC B6 B9 D7 DA C3 B2 D9 BF DE 21 BF DA C6 FC 88 C3 B7 D3 20 B6 D7 BD C4 DE D3 FC 86 C0 DE B9 BC DE AC 20 C5 B2 D6 B3 C0 DE",
+   "text": "      ｷｹﾝﾅ ﾜﾅｶﾞﾀｸｻﾝ{fc}{nl:6}ｼｶｹﾗﾚﾃｲﾙｿﾞ!ｿﾚﾆ{fc}{nl:8}ﾃｷﾓ ｶﾗｽﾄﾞﾓ{fc}{nl:6}ﾀﾞｹｼﾞｬ ﾅｲﾖｳﾀﾞ"
+  },
+  {
+   "entry_id": 15,
+   "sym_hex": "20 20 20 31 4D 49 4C 45 C9 20 BD B2 C1 AE B8 BA B3 B6 C0 DE 21 FC 86 BC DD C1 AE B3 C6 20 B5 D8 C3 D5 B9 21 FC 8A B7 A6 C2 B9 DB 21 FC 84 44 41 52 4B 20 51 55 45 45 4E C6 20 B5 CF B4 C0 C1 C9 FC 87 D5 B3 B7 A6 20 D0 BE C3 D4 DA 21",
+   "text": "   1MILEﾉ ｽｲﾁｮｸｺｳｶﾀﾞ!{fc}{nl:6}ｼﾝﾁｮｳﾆ ｵﾘﾃﾕｹ!{fc}{nl:10}ｷｦﾂｹﾛ!{fc}{nl:4}DARK QUEENﾆ ｵﾏｴﾀﾁﾉ{fc}{nl:7}ﾕｳｷｦ ﾐｾﾃﾔﾚ!"
+  },
+  {
+   "entry_id": 16,
+   "sym_hex": "20 20 20 D6 B8 CF B1 20 B1 C9 B5 B5 B1 C5 A6 20 CC DE BC DE C6 FC 84 C4 B5 AF C3 BA DA C0 C8 B4 20 B6 B4 D9 C4 DE D3 21",
+   "text": "   ﾖｸﾏｱ ｱﾉｵｵｱﾅｦ ﾌﾞｼﾞﾆ{fc}{nl:4}ﾄｵｯﾃｺﾚﾀﾈｴ ｶｴﾙﾄﾞﾓ!"
+  },
+  {
+   "entry_id": 17,
+   "sym_hex": "20 20 20 20 20 20 B5 B5 B1 C5 A6 20 C7 B9 C0 B6 D7 AF C3 FC 85 C1 AE B3 BC C6 C9 D9 DD BC DE AC C5 B2 D6 21 FC FC",
+   "text": "      ｵｵｱﾅｦ ﾇｹﾀｶﾗｯﾃ{fc}{nl:5}ﾁｮｳｼﾆﾉﾙﾝｼﾞｬﾅｲﾖ!{fc}{fc}"
+  },
+  {
+   "entry_id": 18,
+   "sym_hex": "20 20 20 20 20 20 20 20 CF C0 DE CF C0 DE BB B7 CA FC 87 C5 B6 DE B2 DD C0 DE B6 D7 C8 21 FC 84 CE B3 D7 21 B2 BF B6 DE C5 B2 C4 20 B6 C1 D2 B6 DE FC 89 C5 B8 C5 D9 BF DE 21",
+   "text": "        ﾏﾀﾞﾏﾀﾞｻｷﾊ{fc}{nl:7}ﾅｶﾞｲﾝﾀﾞｶﾗﾈ!{fc}{nl:4}ﾎｳﾗ!ｲｿｶﾞﾅｲﾄ ｶﾁﾒｶﾞ{fc}{nl:9}ﾅｸﾅﾙｿﾞ!"
+  },
+  {
+   "entry_id": 19,
+   "sym_hex": "20 20 20 4D 55 54 41 4E 54 2D 52 41 54 C6 20 D4 D7 DA D9 CF B4 C6 FC 86 BA B3 BB DD BC C0 D7 C4 DE B3 C0 DE B2 22 FC 89 B6 B4 D9 C4 DE D3 21",
+   "text": "   MUTANT-RATﾆ ﾔﾗﾚﾙﾏｴﾆ{fc}{nl:6}ｺｳｻﾝｼﾀﾗﾄﾞｳﾀﾞｲ\"{fc}{nl:9}ｶｴﾙﾄﾞﾓ!"
+  },
+  {
+   "entry_id": 20,
+   "sym_hex": "20 20 20 20 20 20 4D 55 54 41 4E 54 2D 52 41 54 B6 DE FC 88 BE CF AF C3 B2 D9 BF DE 21 FC 89 CC DE C1 C9 D2 BE 21",
+   "text": "      MUTANT-RATｶﾞ{fc}{nl:8}ｾﾏｯﾃｲﾙｿﾞ!{fc}{nl:9}ﾌﾞﾁﾉﾒｾ!"
+  },
+  {
+   "entry_id": 21,
+   "sym_hex": "20 20 20 20 C0 DD C1 B7 C6 D6 D9 C4 20 BE DE DD CE DF B3 C6 FC 84 53 50 45 45 44 2D 42 49 4B 45 B6 DE B1 D9 BF DE 21 FC 87 BF DA C6 C9 AF C3 20 BD BD D2 21",
+   "text": "    ﾀﾝﾁｷﾆﾖﾙﾄ ｾﾞﾝﾎﾟｳﾆ{fc}{nl:4}SPEED-BIKEｶﾞｱﾙｿﾞ!{fc}{nl:7}ｿﾚﾆﾉｯﾃ ｽｽﾒ!"
+  },
+  {
+   "entry_id": 22,
+   "sym_hex": "20 20 BA BA CA 20 53 50 45 45 44 B6 DE BC AE B3 CC DE C0 DE BF DE 21 FC 88 52 41 53 48 21 5A 49 54 5A 21",
+   "text": "  ｺｺﾊ SPEEDｶﾞｼｮｳﾌﾞﾀﾞｿﾞ!{fc}{nl:8}RASH!ZITZ!"
+  },
+  {
+   "entry_id": 23,
+   "sym_hex": "20 20 20 20 20 20 20 20 B2 C5 BD DE CF D0 C0 B2 C6 FC 88 C1 AE B3 BA B3 BF B8 C3 DE FC 88 C2 B7 BD BD D1 DD C0 DE 21 FC FC",
+   "text": "        ｲﾅｽﾞﾏﾐﾀｲﾆ{fc}{nl:8}ﾁｮｳｺｳｿｸﾃﾞ{fc}{nl:8}ﾂｷｽｽﾑﾝﾀﾞ!{fc}{fc}"
+  },
+  {
+   "entry_id": 24,
+   "sym_hex": "20 20 20 4F 48 2D 2D 21 54 55 52 42 4F 20 54 55 4E 4E 45 4C A6 FC 85 B3 CF B8 20 C7 B9 C3 B7 C0 D6 B3 C0 DE C8 21 FC 81 BF DA C5 D7 20 C2 B7 DE CA 20 BA B5 D8 C9 C4 DE B3 B8 C2 C0 DE D6 21",
+   "text": "   OH--!TURBO TUNNELｦ{fc}{nl:5}ｳﾏｸ ﾇｹﾃｷﾀﾖｳﾀﾞﾈ!{fc}{nl:1}ｿﾚﾅﾗ ﾂｷﾞﾊ ｺｵﾘﾉﾄﾞｳｸﾂﾀﾞﾖ!"
+  },
+  {
+   "entry_id": 25,
+   "sym_hex": "20 20 20 20 53 50 45 45 44 2D 42 49 4B 45 A6 C2 B6 B4 CA DE FC 83 BC DE AE B3 BD DE C6 20 C4 CD DE D9 D0 C0 B2 C0 DE B9 C4 DE FC 85 BA BA C3 DE CA 20 BF B3 CA B2 B6 C5 B2 D6 21 FC 86 42 41 54 54 4C 45 54 4F 41 44 53 21 20 FC FC",
+   "text": "    SPEED-BIKEｦﾂｶｴﾊﾞ{fc}{nl:3}ｼﾞｮｳｽﾞﾆ ﾄﾍﾞﾙﾐﾀｲﾀﾞｹﾄﾞ{fc}{nl:5}ｺｺﾃﾞﾊ ｿｳﾊｲｶﾅｲﾖ!{fc}{nl:6}BATTLETOADS! {fc}{fc}"
+  },
+  {
+   "entry_id": 26,
+   "sym_hex": "20 20 20 B5 CF B4 C0 C1 C9 20 BF C9 D0 C6 B8 B2 BD B6 DE C0 A6 FC 86 BA B5 D8 C9 D5 B6 C4 20 C2 D7 D7 C4 C3 DE FC 85 CD DF BC AC DD BA C6 BC C3 B1 B9 DE D9 DC 21 FC 89 B6 B4 D9 C4 DE D3 21 FC FC",
+   "text": "   ｵﾏｴﾀﾁﾉ ｿﾉﾐﾆｸｲｽｶﾞﾀｦ{fc}{nl:6}ｺｵﾘﾉﾕｶﾄ ﾂﾗﾗﾄﾃﾞ{fc}{nl:5}ﾍﾟｼｬﾝｺﾆｼﾃｱｹﾞﾙﾜ!{fc}{nl:9}ｶｴﾙﾄﾞﾓ!{fc}{fc}"
+  },
+  {
+   "entry_id": 27,
+   "sym_hex": "20 20 20 20 B5 CF B4 C0 C1 A6 20 BA B5 D8 C2 DE B9 C6 BC C3 FC 80 C6 C4 DE C4 20 C1 BC DE AE B3 C6 C3 DE D7 DA C5 B2 D6 B3 C6 BC C3 D4 D9 DC 21 FC 89 B6 B8 BA DE B5 BC 21",
+   "text": "    ｵﾏｴﾀﾁｦ ｺｵﾘﾂﾞｹﾆｼﾃ{fc}{nl:0}ﾆﾄﾞﾄ ﾁｼﾞｮｳﾆﾃﾞﾗﾚﾅｲﾖｳﾆｼﾃﾔﾙﾜ!{fc}{nl:9}ｶｸｺﾞｵｼ!"
+  },
+  {
+   "entry_id": 28,
+   "sym_hex": "20 20 20 BA BA C9 20 B7 B5 DD CA 20 CB AE B3 C3 DD B6 C0 DE BF DE FC 84 BA BA C3 DE CA C5 C6 B6 DE B5 B7 D9 B6 DC B6 D7 DD FC 85 B1 BC D3 C4 C6 20 C1 AD B3 B2 BC C3 BD BD D2 21 FC FC",
+   "text": "   ｺｺﾉ ｷｵﾝﾊ ﾋｮｳﾃﾝｶﾀﾞｿﾞ{fc}{nl:4}ｺｺﾃﾞﾊﾅﾆｶﾞｵｷﾙｶﾜｶﾗﾝ{fc}{nl:5}ｱｼﾓﾄﾆ ﾁｭｳｲｼﾃｽｽﾒ!{fc}{fc}"
+  },
+  {
+   "entry_id": 29,
+   "sym_hex": "20 20 20 20 20 20 D5 AF B8 D8 20 BD BD D1 DD C0 DE 21 FC 82 D5 AF B8 D8 BD BD CF C5 B2 C4 20 BD CD DE AF C3 BA DB DD C3 DE FC 89 B1 C9 D6 B2 B7 C0 DE 21",
+   "text": "      ﾕｯｸﾘ ｽｽﾑﾝﾀﾞ!{fc}{nl:2}ﾕｯｸﾘｽｽﾏﾅｲﾄ ｽﾍﾞｯﾃｺﾛﾝﾃﾞ{fc}{nl:9}ｱﾉﾖｲｷﾀﾞ!"
+  },
+  {
+   "entry_id": 30,
+   "sym_hex": "20 20 20 20 20 20 BB B1 21 BB D1 BB C6 CF B9 D9 C5 21 FC 85 49 54 27 53 20 53 48 4F 57 20 54 49 4D 45 21",
+   "text": "      ｻｱ!ｻﾑｻﾆﾏｹﾙﾅ!{fc}{nl:5}IT'S SHOW TIME!"
+  },
+  {
+   "entry_id": 31,
+   "sym_hex": "20 20 20 20 20 20 BF BA CA C5 DD C3 BB D1 B2 DD C0 DE 21 FC 84 BA DD C5 C4 BA DB C6 20 B2 C2 CF C3 DE D3 B2 C0 D7 FC 88 BA B5 D8 C2 B2 C1 CF B3 BF DE FC 88 CA D4 B8 B6 B9 C7 B9 DB 21",
+   "text": "      ｿｺﾊﾅﾝﾃｻﾑｲﾝﾀﾞ!{fc}{nl:4}ｺﾝﾅﾄｺﾛﾆ ｲﾂﾏﾃﾞﾓｲﾀﾗ{fc}{nl:8}ｺｵﾘﾂｲﾁﾏｳｿﾞ{fc}{nl:8}ﾊﾔｸｶｹﾇｹﾛ!"
+  },
+  {
+   "entry_id": 32,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 20 20 B5 D4 22 FC 85 53 55 52 46 49 4E A6 BD D9 20 C2 D3 D8 B6 B2 22 FC 83 CA 2D AF CA AF CA AF CA 21 BA B2 C2 CA B5 D3 BC DB B2 21 FC 85 B6 B4 D9 B6 DE 53 55 52 46 49 4E C5 DD C3 21",
+   "text": "           ｵﾔ\"{fc}{nl:5}SURFINｦｽﾙ ﾂﾓﾘｶｲ\"{fc}{nl:3}ﾊ-ｯﾊｯﾊｯﾊ!ｺｲﾂﾊｵﾓｼﾛｲ!{fc}{nl:5}ｶｴﾙｶﾞSURFINﾅﾝﾃ!"
+  },
+  {
+   "entry_id": 33,
+   "sym_hex": "20 20 20 20 20 20 B2 B2 BA C4 A6 20 B5 BC B4 C3 D4 DB B3 FC 85 B6 DC C6 B3 B6 CC DE 20 CA DE B8 C0 DE DD C6 CA FC 88 B7 A6 C2 B9 D9 DD C0 DE C8 21 FC 87 BF DA C4 20 B3 BD DE C6 D3 C8 21",
+   "text": "      ｲｲｺﾄｦ ｵｼｴﾃﾔﾛｳ{fc}{nl:5}ｶﾜﾆｳｶﾌﾞ ﾊﾞｸﾀﾞﾝﾆﾊ{fc}{nl:8}ｷｦﾂｹﾙﾝﾀﾞﾈ!{fc}{nl:7}ｿﾚﾄ ｳｽﾞﾆﾓﾈ!"
+  },
+  {
+   "entry_id": 34,
+   "sym_hex": "20 20 20 20 20 20 20 20 CF B1 20 C9 DD CB DE D8 C4 FC 85 53 55 52 46 49 4E A6 20 C0 C9 BC D1 D0 C5 21 FC 85 BA DA B6 DE B5 CF B4 C0 C1 C9 20 BB B2 BA DE C9 FC 85 53 50 4F 52 54 53 C6 C5 D9 DD C0 DE B6 D7 21",
+   "text": "        ﾏｱ ﾉﾝﾋﾞﾘﾄ{fc}{nl:5}SURFINｦ ﾀﾉｼﾑﾐﾅ!{fc}{nl:5}ｺﾚｶﾞｵﾏｴﾀﾁﾉ ｻｲｺﾞﾉ{fc}{nl:5}SPORTSﾆﾅﾙﾝﾀﾞｶﾗ!"
+  },
+  {
+   "entry_id": 35,
+   "sym_hex": "20 20 20 20 20 20 D3 BC 20 CF DD B6 DE B2 C1 C3 DE D3 FC 84 B5 CF B4 C0 C1 B6 DE 20 B6 DC A6 BA B4 D9 BA C4 B6 DE FC 86 C3 DE B7 C0 D7 20 BA DE CE B3 CB DE C6 FC 82 42 49 47 2D 42 4C 41 47 C4 20 C0 B2 B9 C2 BB BE C3 D4 D9 D6 21",
+   "text": "      ﾓｼ ﾏﾝｶﾞｲﾁﾃﾞﾓ{fc}{nl:4}ｵﾏｴﾀﾁｶﾞ ｶﾜｦｺｴﾙｺﾄｶﾞ{fc}{nl:6}ﾃﾞｷﾀﾗ ｺﾞﾎｳﾋﾞﾆ{fc}{nl:2}BIG-BLAGﾄ ﾀｲｹﾂｻｾﾃﾔﾙﾖ!"
+  },
+  {
+   "entry_id": 36,
+   "sym_hex": "20 20 20 20 20 B3 CF B8 D4 AF C3 B2 D9 D6 B3 C0 DE C5 21 FC 85 BA BA A6 B3 CF B8 20 B7 D8 C7 B9 D7 DA C0 D7 FC 86 44 41 52 4B 20 51 55 45 45 4E C5 DD C3 FC 89 BA DC B6 C5 B2 BF DE 21",
+   "text": "     ｳﾏｸﾔｯﾃｲﾙﾖｳﾀﾞﾅ!{fc}{nl:5}ｺｺｦｳﾏｸ ｷﾘﾇｹﾗﾚﾀﾗ{fc}{nl:6}DARK QUEENﾅﾝﾃ{fc}{nl:9}ｺﾜｶﾅｲｿﾞ!"
+  },
+  {
+   "entry_id": 37,
+   "sym_hex": "20 20 20 20 20 20 20 20 B7 B1 B2 A6 B2 DA DB 21 FC 87 B3 CF B8 C5 D0 C6 C9 D9 DD C0 DE 21 FC 88 52 41 53 48 21 5A 49 54 5A 21",
+   "text": "        ｷｱｲｦｲﾚﾛ!{fc}{nl:7}ｳﾏｸﾅﾐﾆﾉﾙﾝﾀﾞ!{fc}{nl:8}RASH!ZITZ!"
+  },
+  {
+   "entry_id": 38,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 47 4F 21 20 47 4F 21 FC 87 42 41 54 54 4C 45 54 4F 41 44 53 21",
+   "text": "         GO! GO!{fc}{nl:7}BATTLETOADS!"
+  },
+  {
+   "entry_id": 39,
+   "sym_hex": "20 20 20 20 B6 DC C0 DE B9 C6 20 B7 A6 C2 B9 D8 AC B2 B2 21 FC 87 42 49 47 2D 42 4C 41 47 C5 DD C3 FC 86 B2 C1 B9 DE B7 C3 DE D4 AF C2 B9 DB 21",
+   "text": "    ｶﾜﾀﾞｹﾆ ｷｦﾂｹﾘｬｲｲ!{fc}{nl:7}BIG-BLAGﾅﾝﾃ{fc}{nl:6}ｲﾁｹﾞｷﾃﾞﾔｯﾂｹﾛ!"
+  },
+  {
+   "entry_id": 40,
+   "sym_hex": "20 20 20 20 D3 B3 B1 B7 D7 D2 D9 C9 D6 20 B6 B4 D9 C4 DE D3 21 FC 84 B5 CF B4 C0 C1 C6 20 53 4E 41 4B 45 20 50 49 54 A6 FC 86 BA B4 D9 BA C4 CA 20 CC B6 C9 B3 BB 21",
+   "text": "    ﾓｳｱｷﾗﾒﾙﾉﾖ ｶｴﾙﾄﾞﾓ!{fc}{nl:4}ｵﾏｴﾀﾁﾆ SNAKE PITｦ{fc}{nl:6}ｺｴﾙｺﾄﾊ ﾌｶﾉｳｻ!"
+  },
+  {
+   "entry_id": 41,
+   "sym_hex": "20 20 20 20 20 B6 B4 D9 C9 20 BB B2 C0 DE B2 C9 C3 B7 CA FC 85 CD CB DE C0 DE AF C3 C9 CA 20 CE DD C4 B6 B2 22 FC 83 CF B1 20 BD B8 DE C6 DC B6 D9 BA C4 C0 DE B9 C4 DE C8 21 FC 88 B1 2D AF CA AF CA AF CA AF 21",
+   "text": "     ｶｴﾙﾉ ｻｲﾀﾞｲﾉﾃｷﾊ{fc}{nl:5}ﾍﾋﾞﾀﾞｯﾃﾉﾊ ﾎﾝﾄｶｲ\"{fc}{nl:3}ﾏｱ ｽｸﾞﾆﾜｶﾙｺﾄﾀﾞｹﾄﾞﾈ!{fc}{nl:8}ｱ-ｯﾊｯﾊｯﾊｯ!"
+  },
+  {
+   "entry_id": 42,
+   "sym_hex": "20 20 20 20 20 20 20 20 B5 CF B4 C0 C1 C6 20 BA C9 FC 85 CD CB DE C9 B1 C5 A6 20 C7 B9 D9 D5 B3 B7 B6 DE FC 86 B1 D9 C9 B6 B2 22 B6 B4 D9 C4 DE D3 21",
+   "text": "        ｵﾏｴﾀﾁﾆ ｺﾉ{fc}{nl:5}ﾍﾋﾞﾉｱﾅｦ ﾇｹﾙﾕｳｷｶﾞ{fc}{nl:6}ｱﾙﾉｶｲ\"ｶｴﾙﾄﾞﾓ!"
+  },
+  {
+   "entry_id": 43,
+   "sym_hex": "20 20 20 20 20 20 C5 C6 21 22 42 49 47 2D 42 4C 41 47 A6 FC 86 C0 B5 BC C0 AF C3 21 22 D3 B3 D5 D9 BE DD FC 84 B5 CF B4 C0 C1 A6 20 CD CB DE C6 B8 DC BE C3 D4 D9",
+   "text": "      ﾅﾆ!\"BIG-BLAGｦ{fc}{nl:6}ﾀｵｼﾀｯﾃ!\"ﾓｳﾕﾙｾﾝ{fc}{nl:4}ｵﾏｴﾀﾁｦ ﾍﾋﾞﾆｸﾜｾﾃﾔﾙ"
+  },
+  {
+   "entry_id": 44,
+   "sym_hex": "20 20 20 20 D4 AF CE 2D B2 21 C1 AE B3 BC CA C4 DE B3 C0 DE FC 87 42 41 54 54 4C 45 54 4F 41 44 21",
+   "text": "    ﾔｯﾎ-ｲ!ﾁｮｳｼﾊﾄﾞｳﾀﾞ{fc}{nl:7}BATTLETOAD!"
+  },
+  {
+   "entry_id": 45,
+   "sym_hex": "20 20 20 20 20 20 20 20 C0 DD C1 B7 C6 D6 D9 C4 FC 88 B5 B5 B7 C5 CD CB DE B6 DE FC 88 B5 CF B4 C0 C1 C9 20 CE B3 C6 FC 87 BD D8 D6 AF C3 B7 C3 B2 D9 BF DE 21",
+   "text": "        ﾀﾝﾁｷﾆﾖﾙﾄ{fc}{nl:8}ｵｵｷﾅﾍﾋﾞｶﾞ{fc}{nl:8}ｵﾏｴﾀﾁﾉ ﾎｳﾆ{fc}{nl:7}ｽﾘﾖｯﾃｷﾃｲﾙｿﾞ!"
+  },
+  {
+   "entry_id": 46,
+   "sym_hex": "20 20 20 20 20 20 C5 DD C4 B6 20 CD CB DE C9 BE C5 B6 C6 FC 84 C4 CB DE C9 AF C3 20 B3 B4 C6 C9 CE DE D9 DD C0 DE 21 FC 88 BC AF B6 D8 C2 B6 CF DA 21 FC FC",
+   "text": "      ﾅﾝﾄｶ ﾍﾋﾞﾉｾﾅｶﾆ{fc}{nl:4}ﾄﾋﾞﾉｯﾃ ｳｴﾆﾉﾎﾞﾙﾝﾀﾞ!{fc}{nl:8}ｼｯｶﾘﾂｶﾏﾚ!{fc}{fc}"
+  },
+  {
+   "entry_id": 47,
+   "sym_hex": "20 20 20 20 20 20 20 20 BA BA C9 C3 DE B8 DE C1 CA FC 88 B3 B4 C6 BC B6 C5 B2 BF DE 21 FC FC",
+   "text": "        ｺｺﾉﾃﾞｸﾞﾁﾊ{fc}{nl:8}ｳｴﾆｼｶﾅｲｿﾞ!{fc}{fc}"
+  },
+  {
+   "entry_id": 48,
+   "sym_hex": "20 20 20 20 20 20 20 BC DE CC DE DD C0 C1 C3 DE CA FC 84 B3 CF B8 D4 AF C3 D9 C2 D3 D8 C5 DD C0 DE DB B3 C8 FC 86 C6 B8 C0 D7 BC B2 B6 B4 D9 C4 DE D3 21 FC 83 C3 DE D3 20 BA DA B6 D7 CA D3 AF C4 C0 B2 CD DD C0 DE D6 21 FC 86 B6 B8 BA DE BC C3 B5 B8 DD C0 DE C8 21",
+   "text": "       ｼﾞﾌﾞﾝﾀﾁﾃﾞﾊ{fc}{nl:4}ｳﾏｸﾔｯﾃﾙﾂﾓﾘﾅﾝﾀﾞﾛｳﾈ{fc}{nl:6}ﾆｸﾀﾗｼｲｶｴﾙﾄﾞﾓ!{fc}{nl:3}ﾃﾞﾓ ｺﾚｶﾗﾊﾓｯﾄﾀｲﾍﾝﾀﾞﾖ!{fc}{nl:6}ｶｸｺﾞｼﾃｵｸﾝﾀﾞﾈ!"
+  },
+  {
+   "entry_id": 49,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 20 C2 B7 DE CA FC 86 46 49 52 45 20 5A 4F 4E 45 C0 DE D6 21",
+   "text": "          ﾂｷﾞﾊ{fc}{nl:6}FIRE ZONEﾀﾞﾖ!"
+  },
+  {
+   "entry_id": 50,
+   "sym_hex": "20 20 D3 B4 C2 B7 C1 CF B2 C5 21 42 41 54 54 4C 45 54 4F 41 44 21",
+   "text": "  ﾓｴﾂｷﾁﾏｲﾅ!BATTLETOAD!"
+  },
+  {
+   "entry_id": 51,
+   "sym_hex": "20 20 20 B5 CF B4 C0 C1 C5 C4 DE 20 D6 B3 B6 DE DD C9 C5 B6 C3 DE FC 86 C4 B9 C3 20 BC CF B4 CA DE 20 B2 B2 DC 21",
+   "text": "   ｵﾏｴﾀﾁﾅﾄﾞ ﾖｳｶﾞﾝﾉﾅｶﾃﾞ{fc}{nl:6}ﾄｹﾃ ｼﾏｴﾊﾞ ｲｲﾜ!"
+  },
+  {
+   "entry_id": 52,
+   "sym_hex": "20 20 20 20 20 20 20 B2 BF B2 C3 DE C7 B9 D9 DD C0 DE FC 87 42 41 54 54 4C 45 54 4F 41 44 21",
+   "text": "       ｲｿｲﾃﾞﾇｹﾙﾝﾀﾞ{fc}{nl:7}BATTLETOAD!"
+  },
+  {
+   "entry_id": 53,
+   "sym_hex": "20 20 20 20 20 20 20 20 BA DD C5 C4 BA DB C3 DE FC 84 CE DE D4 CE DE D4 BC C3 B2 D9 CB CF CA C5 B2 BF DE 21",
+   "text": "        ｺﾝﾅﾄｺﾛﾃﾞ{fc}{nl:4}ﾎﾞﾔﾎﾞﾔｼﾃｲﾙﾋﾏﾊﾅｲｿﾞ!"
+  },
+  {
+   "entry_id": 54,
+   "sym_hex": "20 20 20 20 20 20 20 CB BA B3 B7 C6 CF C0 B6 DE AF C3 FC 86 D6 B3 B6 DE DD C9 C0 CF A6 20 B6 DC BE 21 FC 84 47 4F 41 4C CF C3 DE 20 4E 4F 4E 20 53 54 4F 50 C3 DE FC 88 C2 B7 BD BD D1 DD C0 DE 21",
+   "text": "       ﾋｺｳｷﾆﾏﾀｶﾞｯﾃ{fc}{nl:6}ﾖｳｶﾞﾝﾉﾀﾏｦ ｶﾜｾ!{fc}{nl:4}GOALﾏﾃﾞ NON STOPﾃﾞ{fc}{nl:8}ﾂｷｽｽﾑﾝﾀﾞ!"
+  },
+  {
+   "entry_id": 55,
+   "sym_hex": "20 20 20 20 20 20 20 20 D5 C0 DE DD BC C3 D9 C4 FC 88 D6 B3 B6 DE DD C9 C8 C2 C3 DE FC 85 B8 DB BA B9 DE C6 20 C5 AF C1 CF B3 BF DE 21",
+   "text": "        ﾕﾀﾞﾝｼﾃﾙﾄ{fc}{nl:8}ﾖｳｶﾞﾝﾉﾈﾂﾃﾞ{fc}{nl:5}ｸﾛｺｹﾞﾆ ﾅｯﾁﾏｳｿﾞ!"
+  },
+  {
+   "entry_id": 56,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 20 CE 2D 2D 21 FC 87 D6 B3 B6 DE DD C9 20 CE C9 B5 C6 FC 83 D4 D7 DA C3 BC CF AF C0 C9 B6 C4 20 B5 D3 AF C0 B9 C4 DE FC 84 B2 B6 DE B2 C4 20 BC C2 BA B2 D4 C2 D7 C0 DE BA C4 21",
+   "text": "          ﾎ--!{fc}{nl:7}ﾖｳｶﾞﾝﾉ ﾎﾉｵﾆ{fc}{nl:3}ﾔﾗﾚﾃｼﾏｯﾀﾉｶﾄ ｵﾓｯﾀｹﾄﾞ{fc}{nl:4}ｲｶﾞｲﾄ ｼﾂｺｲﾔﾂﾗﾀﾞｺﾄ!"
+  },
+  {
+   "entry_id": 57,
+   "sym_hex": "20 20 20 20 BE DD B6 DD 47 41 52 47 41 4E 54 55 41 CF C3 DE CA FC 87 CF C0 DE CF C0 DE C4 B5 B2 DD C0 DE FC 85 B2 B2 B7 C6 20 C5 D9 DD BC DE AC C5 B2 D6 21",
+   "text": "    ｾﾝｶﾝGARGANTUAﾏﾃﾞﾊ{fc}{nl:7}ﾏﾀﾞﾏﾀﾞﾄｵｲﾝﾀﾞ{fc}{nl:5}ｲｲｷﾆ ﾅﾙﾝｼﾞｬﾅｲﾖ!"
+  },
+  {
+   "entry_id": 58,
+   "sym_hex": "20 20 20 20 20 45 4C 45 56 41 54 4F 52 20 53 48 41 46 54 C9 FC 87 BB B2 BC DE AE B3 B6 B2 C6 CA 20 FC 87 52 4F 42 4F 2D 4D 41 4E 55 53 B6 DE FC 87 B5 CF B4 C0 C1 A6 CF AF C3 B2 D9 21",
+   "text": "     ELEVATOR SHAFTﾉ{fc}{nl:7}ｻｲｼﾞｮｳｶｲﾆﾊ {fc}{nl:7}ROBO-MANUSｶﾞ{fc}{nl:7}ｵﾏｴﾀﾁｦﾏｯﾃｲﾙ!"
+  },
+  {
+   "entry_id": 59,
+   "sym_hex": "20 20 20 20 45 4C 45 56 41 54 4F 52 20 53 48 41 46 54 B6 D7 FC 89 CF AF BB B6 BB CF C6 FC 89 B5 C1 C3 B5 BC CF B2 21",
+   "text": "    ELEVATOR SHAFTｶﾗ{fc}{nl:9}ﾏｯｻｶｻﾏﾆ{fc}{nl:9}ｵﾁﾃｵｼﾏｲ!"
+  },
+  {
+   "entry_id": 60,
+   "sym_hex": "20 20 20 20 20 20 20 20 BA DD C5 C4 BA DB C5 C4 DE FC 85 B2 AF B7 C6 C9 CE DE AF C3 BC CF B3 DD C0 DE FC 84 47 4F 21 47 4F 21 42 41 54 54 4C 45 54 4F 41 44 21",
+   "text": "        ｺﾝﾅﾄｺﾛﾅﾄﾞ{fc}{nl:5}ｲｯｷﾆﾉﾎﾞｯﾃｼﾏｳﾝﾀﾞ{fc}{nl:4}GO!GO!BATTLETOAD!"
+  },
+  {
+   "entry_id": 61,
+   "sym_hex": "20 20 20 20 20 20 20 47 41 52 47 41 4E 54 55 41 CA FC 87 BA BA A6 C9 CE DE D8 B7 DA CA DE FC 84 BD B8 DE BF CA DE C6 D0 B4 C3 B8 D9 CA BD DE C0 DE 21 FC FC",
+   "text": "       GARGANTUAﾊ{fc}{nl:7}ｺｺｦﾉﾎﾞﾘｷﾚﾊﾞ{fc}{nl:4}ｽｸﾞｿﾊﾞﾆﾐｴﾃｸﾙﾊｽﾞﾀﾞ!{fc}{fc}"
+  },
+  {
+   "entry_id": 62,
+   "sym_hex": "20 20 20 20 56 55 4C 54 55 52 45 BA DE B3 C9 20 C0 DD C1 B7 CA FC 86 BD C3 DE C6 47 41 52 47 41 4E 54 55 41 A6 FC 88 CA AF B9 DD BC C3 B2 D9 21",
+   "text": "    VULTUREｺﾞｳﾉ ﾀﾝﾁｷﾊ{fc}{nl:6}ｽﾃﾞﾆGARGANTUAｦ{fc}{nl:8}ﾊｯｹﾝｼﾃｲﾙ!"
+  },
+  {
+   "entry_id": 63,
+   "sym_hex": "20 20 20 20 B2 BF B2 C3 DE 20 B3 B4 C6 C9 CE DE D9 DD C0 DE 21 FC 87 42 41 54 54 4C 45 54 4F 41 44 21",
+   "text": "    ｲｿｲﾃﾞ ｳｴﾆﾉﾎﾞﾙﾝﾀﾞ!{fc}{nl:7}BATTLETOAD!"
+  },
+  {
+   "entry_id": 64,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 20 B8 BF 2D 2D 21 FC 84 D6 B8 D3 52 4F 42 4F 2D 4D 41 4E 55 53 CF C3 DE D3 FC 88 C0 B5 BC C3 B8 DA C0 C5 21 FC 89 B6 B4 D9 C4 DE D3 21",
+   "text": "          ｸｿ--!{fc}{nl:4}ﾖｸﾓROBO-MANUSﾏﾃﾞﾓ{fc}{nl:8}ﾀｵｼﾃｸﾚﾀﾅ!{fc}{nl:9}ｶｴﾙﾄﾞﾓ!"
+  },
+  {
+   "entry_id": 65,
+   "sym_hex": "20 20 20 20 20 20 20 47 41 52 47 41 4E 54 55 41 C9 FC 84 B2 B8 D8 DE C1 CA 20 BD CD DE C3 C4 BC DE C3 B1 D9 21",
+   "text": "       GARGANTUAﾉ{fc}{nl:4}ｲｸﾘﾞﾁﾊ ｽﾍﾞﾃﾄｼﾞﾃｱﾙ!"
+  },
+  {
+   "entry_id": 66,
+   "sym_hex": "20 20 20 20 47 41 52 47 41 4E 54 55 41 CD CA B2 D9 BA C4 CA FC 85 B5 CF B4 C0 C1 C6 CA 20 CC B6 C9 B3 C0 DE 21 FC 8A BA BA CF C3 DE C9 FC 87 B5 CF B4 C0 C1 C9 C4 DE D8 AE B8 CA FC 83 BD CD DE C3 20 D1 C0 DE C6 20 C5 AF C3 BC CF B3 C9 BB 21",
+   "text": "    GARGANTUAﾍﾊｲﾙｺﾄﾊ{fc}{nl:5}ｵﾏｴﾀﾁﾆﾊ ﾌｶﾉｳﾀﾞ!{fc}{nl:10}ｺｺﾏﾃﾞﾉ{fc}{nl:7}ｵﾏｴﾀﾁﾉﾄﾞﾘｮｸﾊ{fc}{nl:3}ｽﾍﾞﾃ ﾑﾀﾞﾆ ﾅｯﾃｼﾏｳﾉｻ!"
+  },
+  {
+   "entry_id": 67,
+   "sym_hex": "20 20 20 20 20 20 20 20 BC C6 C0 B8 C5 B6 AF C0 D7 FC 82 B1 B7 D7 D2 C3 20 C4 AF C4 C4 20 CB B7 B1 B9 DE D9 DD C0 DE C8 21 FC 87 BA DA B2 BC DE AE B3 20 DC C0 BC C6 FC 88 C0 C3 C2 B8 C2 D3 D8 C5 D7 FC 88 D6 B3 BC AC BC C5 B2 D6 21",
+   "text": "        ｼﾆﾀｸﾅｶｯﾀﾗ{fc}{nl:2}ｱｷﾗﾒﾃ ﾄｯﾄﾄ ﾋｷｱｹﾞﾙﾝﾀﾞﾈ!{fc}{nl:7}ｺﾚｲｼﾞｮｳ ﾜﾀｼﾆ{fc}{nl:8}ﾀﾃﾂｸﾂﾓﾘﾅﾗ{fc}{nl:8}ﾖｳｼｬｼﾅｲﾖ!"
+  },
+  {
+   "entry_id": 68,
+   "sym_hex": "20 20 20 20 20 20 20 47 41 52 47 41 4E 54 55 41 CD FC 88 BC DD C6 AD B3 BD D9 C6 CA FC 85 CA B2 BD B2 BA B3 A6 20 C2 B6 B3 BC B6 C5 B2 21",
+   "text": "       GARGANTUAﾍ{fc}{nl:8}ｼﾝﾆｭｳｽﾙﾆﾊ{fc}{nl:5}ﾊｲｽｲｺｳｦ ﾂｶｳｼｶﾅｲ!"
+  },
+  {
+   "entry_id": 69,
+   "sym_hex": "20 20 20 20 20 20 20 47 41 52 47 41 4E 54 55 41 C9 FC 87 CA B2 BD B2 BA B3 A6 20 C2 B6 AF C3 FC 89 BC DD C6 AD B3 BC DB 21 FC 84 C3 DE D3 20 DC C5 C6 CA 20 B7 A6 C2 B9 DB D6 21 20",
+   "text": "       GARGANTUAﾉ{fc}{nl:7}ﾊｲｽｲｺｳｦ ﾂｶｯﾃ{fc}{nl:9}ｼﾝﾆｭｳｼﾛ!{fc}{nl:4}ﾃﾞﾓ ﾜﾅﾆﾊ ｷｦﾂｹﾛﾖ! "
+  },
+  {
+   "entry_id": 70,
+   "sym_hex": "20 20 CA B2 BD B2 BA B3 CA 20 D2 B2 DB C9 D6 B3 C6 C5 AF C3 B2 D9 FC 84 B5 CF B9 C6 20 DC C5 D3 C0 B8 BB DD B1 D9 BF DE 21 FC 86 BC DD C1 AE B3 C6 20 BD BD D1 DD C0 DE 21",
+   "text": "  ﾊｲｽｲｺｳﾊ ﾒｲﾛﾉﾖｳﾆﾅｯﾃｲﾙ{fc}{nl:4}ｵﾏｹﾆ ﾜﾅﾓﾀｸｻﾝｱﾙｿﾞ!{fc}{nl:6}ｼﾝﾁｮｳﾆ ｽｽﾑﾝﾀﾞ!"
+  },
+  {
+   "entry_id": 71,
+   "sym_hex": "20 20 20 20 20 20 CA B2 BD B2 BA B3 20 B2 B6 DE B2 C6 FC 88 47 41 52 47 41 4E 54 55 41 CD FC 85 BC DD C6 AD B3 BD D9 20 D0 C1 CA C5 B2 BF DE 21",
+   "text": "      ﾊｲｽｲｺｳ ｲｶﾞｲﾆ{fc}{nl:8}GARGANTUAﾍ{fc}{nl:5}ｼﾝﾆｭｳｽﾙ ﾐﾁﾊﾅｲｿﾞ!"
+  },
+  {
+   "entry_id": 72,
+   "sym_hex": "20 20 20 20 20 20 20 CF BB B6 20 B1 DD C5 C4 BA DB A6 FC 88 C4 B5 AF C3 B8 D9 C4 CA C5 21 FC 87 42 41 54 54 4C 45 54 4F 41 44 21 FC 82 B2 CF CF C3 DE C9 20 DC C0 BC C6 C0 B2 BD D9 20 CC DE DA B2 A6 FC 84 B2 CF BA BA C3 DE C2 B8 DE C5 AF C3 D3 D7 B5 B3 21",
+   "text": "       ﾏｻｶ ｱﾝﾅﾄｺﾛｦ{fc}{nl:8}ﾄｵｯﾃｸﾙﾄﾊﾅ!{fc}{nl:7}BATTLETOAD!{fc}{nl:2}ｲﾏﾏﾃﾞﾉ ﾜﾀｼﾆﾀｲｽﾙ ﾌﾞﾚｲｦ{fc}{nl:4}ｲﾏｺｺﾃﾞﾂｸﾞﾅｯﾃﾓﾗｵｳ!"
+  },
+  {
+   "entry_id": 73,
+   "sym_hex": "20 20 20 20 20 BE DD B6 DD 47 41 52 47 41 4E 54 55 41 C6 CA FC 84 BD C3 DE C6 20 BC DE B9 DE DD CA DE B8 C0 DE DD A6 FC 89 BC B6 B9 C3 B5 B2 C0 21",
+   "text": "     ｾﾝｶﾝGARGANTUAﾆﾊ{fc}{nl:4}ｽﾃﾞﾆ ｼﾞｹﾞﾝﾊﾞｸﾀﾞﾝｦ{fc}{nl:9}ｼｶｹﾃｵｲﾀ!"
+  },
+  {
+   "entry_id": 74,
+   "sym_hex": "20 20 20 20 CA DE B8 C0 DE DD A6 20 BA DC BB C5 B2 B6 B7 DE D8 FC 83 B5 CF B4 C0 C1 CA 47 41 52 41 47 41 4E 54 55 41 C4 C4 D3 C6 FC 87 BA AF CA DF D0 BC DE DD C0 DE D6 21 FC 89 CA 2D AF CA AF CA AF 21",
+   "text": "    ﾊﾞｸﾀﾞﾝｦ ｺﾜｻﾅｲｶｷﾞﾘ{fc}{nl:3}ｵﾏｴﾀﾁﾊGARAGANTUAﾄﾄﾓﾆ{fc}{nl:7}ｺｯﾊﾟﾐｼﾞﾝﾀﾞﾖ!{fc}{nl:9}ﾊ-ｯﾊｯﾊｯ!"
+  },
+  {
+   "entry_id": 75,
+   "sym_hex": "20 20 20 20 20 20 20 BB B1 20 C3 DD BA DE B8 CF C3 DE FC 86 BC AE B3 C0 B2 BC C3 B1 B9 DE D9 DC 21",
+   "text": "       ｻｱ ﾃﾝｺﾞｸﾏﾃﾞ{fc}{nl:6}ｼｮｳﾀｲｼﾃｱｹﾞﾙﾜ!"
+  },
+  {
+   "entry_id": 76,
+   "sym_hex": "20 20 20 20 20 20 20 42 41 54 54 4C 45 54 4F 41 44 21 FC 89 CA DE B8 C0 DE DD CA FC 85 CC C8 C9 20 BF BA C9 CE B3 C6 B1 D9 BF DE 21",
+   "text": "       BATTLETOAD!{fc}{nl:9}ﾊﾞｸﾀﾞﾝﾊ{fc}{nl:5}ﾌﾈﾉ ｿｺﾉﾎｳﾆｱﾙｿﾞ!"
+  },
+  {
+   "entry_id": 77,
+   "sym_hex": "20 20 20 20 20 20 20 C4 DE DD C4 DE DD 20 BC C0 C6 FC 88 B5 D8 C3 D5 B8 DD C0 DE 21 FC 85 CA DE B8 C0 DE DD CA 20 33 C2 D3 B1 D9 BF DE 21",
+   "text": "       ﾄﾞﾝﾄﾞﾝ ｼﾀﾆ{fc}{nl:8}ｵﾘﾃﾕｸﾝﾀﾞ!{fc}{nl:5}ﾊﾞｸﾀﾞﾝﾊ 3ﾂﾓｱﾙｿﾞ!"
+  },
+  {
+   "entry_id": 78,
+   "sym_hex": "20 20 20 20 20 CB C4 C2 C3 DE D3 20 CA DE B8 C0 DE DD B6 FC 89 CA DE B8 CA C2 BC C0 D7 FC 84 B5 CF B4 C0 C1 CA 20 C3 DD BA DE B8 D5 B7 C0 DE 21 FC 85 B2 BF B9 DE 21 42 41 54 54 4C 45 54 4F 41 44 21",
+   "text": "     ﾋﾄﾂﾃﾞﾓ ﾊﾞｸﾀﾞﾝｶ{fc}{nl:9}ﾊﾞｸﾊﾂｼﾀﾗ{fc}{nl:4}ｵﾏｴﾀﾁﾊ ﾃﾝｺﾞｸﾕｷﾀﾞ!{fc}{nl:5}ｲｿｹﾞ!BATTLETOAD!"
+  },
+  {
+   "entry_id": 79,
+   "sym_hex": "20 20 20 20 20 20 C3 B7 C9 20 C8 BD DE D0 C4 DE D3 A6 FC 8A B9 C1 D7 BC C3 FC 85 CC C8 C9 BF BA CF C3 DE B5 D8 D9 DD C0 DE 21",
+   "text": "      ﾃｷﾉ ﾈｽﾞﾐﾄﾞﾓｦ{fc}{nl:10}ｹﾁﾗｼﾃ{fc}{nl:5}ﾌﾈﾉｿｺﾏﾃﾞｵﾘﾙﾝﾀﾞ!"
+  },
+  {
+   "entry_id": 80,
+   "sym_hex": "20 20 20 20 20 20 CF C0 BC C3 D3 20 D4 D8 B5 AF C0 C5 21 FC 89 B6 B4 D9 C4 DE D3 21",
+   "text": "      ﾏﾀｼﾃﾓ ﾔﾘｵｯﾀﾅ!{fc}{nl:9}ｶｴﾙﾄﾞﾓ!"
+  },
+  {
+   "entry_id": 81,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 20 C5 DD C4 21 FC 85 33 C2 C9 CA DE B8 C0 DE DD C9 20 BD CD DE C3 A6 FC 88 C4 D2 C3 BC CF B3 C4 CA C5 21",
+   "text": "          ﾅﾝﾄ!{fc}{nl:5}3ﾂﾉﾊﾞｸﾀﾞﾝﾉ ｽﾍﾞﾃｦ{fc}{nl:8}ﾄﾒﾃｼﾏｳﾄﾊﾅ!"
+  },
+  {
+   "entry_id": 82,
+   "sym_hex": "20 20 20 CF C0 DE 20 B5 DC AF C0 DC B9 C3 DE CA C5 B2 BF DE 21 FC 83 BA C9 A2 43 4C 49 4E 47 45 52 2D 57 49 4E 47 45 52 A3 A6 FC 88 C7 B9 D9 CF C3 DE CA C5 21",
+   "text": "   ﾏﾀﾞ ｵﾜｯﾀﾜｹﾃﾞﾊﾅｲｿﾞ!{fc}{nl:3}ｺﾉ｢CLINGER-WINGER｣ｦ{fc}{nl:8}ﾇｹﾙﾏﾃﾞﾊﾅ!"
+  },
+  {
+   "entry_id": 83,
+   "sym_hex": "20 20 20 20 20 20 20 BA BA C3 DE B5 CF B4 C0 C1 CA FC 88 C1 B6 D7 C2 B7 D9 DD C0 DE 21",
+   "text": "       ｺｺﾃﾞｵﾏｴﾀﾁﾊ{fc}{nl:8}ﾁｶﾗﾂｷﾙﾝﾀﾞ!"
+  },
+  {
+   "entry_id": 84,
+   "sym_hex": "20 20 20 20 A2 43 4C 49 4E 47 45 52 2D 57 49 4E 47 45 52 A3 CA FC 88 B2 C1 D8 DD BC AC C0 DE 21",
+   "text": "    ｢CLINGER-WINGER｣ﾊ{fc}{nl:8}ｲﾁﾘﾝｼｬﾀﾞ!"
+  },
+  {
+   "entry_id": 85,
+   "sym_hex": "20 20 20 20 20 20 C3 B7 C6 20 B7 A6 C2 B9 C5 B6 DE D7 FC 83 B2 C1 D8 DD BC AC C6 20 C2 B6 CF AF C3 B2 C4 DE B3 BC DB 21",
+   "text": "      ﾃｷﾆ ｷｦﾂｹﾅｶﾞﾗ{fc}{nl:3}ｲﾁﾘﾝｼｬﾆ ﾂｶﾏｯﾃｲﾄﾞｳｼﾛ!"
+  },
+  {
+   "entry_id": 86,
+   "sym_hex": "20 20 20 20 20 20 B5 CF B4 C0 C1 C5 D7 20 B6 C5 D7 BD DE FC 84 A2 43 4C 49 4E 47 45 52 2D 57 49 4E 47 45 52 A3 A6 FC 88 C9 D8 BA C5 BE D9 BF DE 21",
+   "text": "      ｵﾏｴﾀﾁﾅﾗ ｶﾅﾗｽﾞ{fc}{nl:4}｢CLINGER-WINGER｣ｦ{fc}{nl:8}ﾉﾘｺﾅｾﾙｿﾞ!"
+  },
+  {
+   "entry_id": 87,
+   "sym_hex": "20 20 20 20 20 20 20 44 41 52 4B 20 51 55 45 45 4E 21 FC 84 DC C0 BC C9 42 41 54 54 4C 45 54 4F 41 44 C0 C1 CA FC 86 BA C9 C3 B2 C4 DE C9 20 DC C5 C3 DE CA 20 FC 89 C0 B5 BE DD BF DE 21",
+   "text": "       DARK QUEEN!{fc}{nl:4}ﾜﾀｼﾉBATTLETOADﾀﾁﾊ{fc}{nl:6}ｺﾉﾃｲﾄﾞﾉ ﾜﾅﾃﾞﾊ {fc}{nl:9}ﾀｵｾﾝｿﾞ!"
+  },
+  {
+   "entry_id": 88,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 C5 DD C3 BA AF C0 21 FC 83 B2 CF CF C3 DE DC C0 BC C6 20 CA D1 B6 AF C0 D3 C9 C3 DE FC 83 BA BA CF C3 DE BA DA C0 D4 C2 CA 20 B2 C5 B6 AF C0 C9 C6 21",
+   "text": "         ﾅﾝﾃｺｯﾀ!{fc}{nl:3}ｲﾏﾏﾃﾞﾜﾀｼﾆ ﾊﾑｶｯﾀﾓﾉﾃﾞ{fc}{nl:3}ｺｺﾏﾃﾞｺﾚﾀﾔﾂﾊ ｲﾅｶｯﾀﾉﾆ!"
+  },
+  {
+   "entry_id": 89,
+   "sym_hex": "20 20 20 20 20 DC C0 BC CA 20 B1 C0 CF C6 B7 C0 BF DE 21 FC 86 BA C9 B3 C1 AD B3 C9 20 BC CA B2 BC AC FC 86 44 41 52 4B 20 51 55 45 45 4E BB CF B6 DE FC 87 C1 AE B8 BE C2 20 B5 CF B4 C0 C1 C9 FC 87 B1 B2 C3 C6 20 C5 AF C3 D4 D9 DC 21",
+   "text": "     ﾜﾀｼﾊ ｱﾀﾏﾆｷﾀｿﾞ!{fc}{nl:6}ｺﾉｳﾁｭｳﾉ ｼﾊｲｼｬ{fc}{nl:6}DARK QUEENｻﾏｶﾞ{fc}{nl:7}ﾁｮｸｾﾂ ｵﾏｴﾀﾁﾉ{fc}{nl:7}ｱｲﾃﾆ ﾅｯﾃﾔﾙﾜ!"
+  },
+  {
+   "entry_id": 90,
+   "sym_hex": "20 20 20 20 BA C9 C4 B3 C9 20 BB B2 BC DE AE B3 B6 B2 C3 DE FC 86 B5 CF B4 C0 C1 A6 20 CF AF C3 D9 BF DE 21",
+   "text": "    ｺﾉﾄｳﾉ ｻｲｼﾞｮｳｶｲﾃﾞ{fc}{nl:6}ｵﾏｴﾀﾁｦ ﾏｯﾃﾙｿﾞ!"
+  },
+  {
+   "entry_id": 91,
+   "sym_hex": "20 20 20 20 20 20 20 B5 C0 B6 DE B2 C6 20 BA DA C3 DE FC 83 BB B2 BA DE C9 C0 C0 B6 B2 C6 20 C5 D9 D6 B3 C0 DE C8 21 FC 87 42 41 54 54 4C 45 54 4F 41 44 21",
+   "text": "       ｵﾀｶﾞｲﾆ ｺﾚﾃﾞ{fc}{nl:3}ｻｲｺﾞﾉﾀﾀｶｲﾆ ﾅﾙﾖｳﾀﾞﾈ!{fc}{nl:7}BATTLETOAD!"
+  },
+  {
+   "entry_id": 92,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 20 C4 DE B3 D4 D7 FC 87 44 41 52 4B 20 51 55 45 45 4E B6 DE FC 85 CE DD B7 C6 C5 AF C0 20 D6 B3 C0 DE BF DE 21",
+   "text": "          ﾄﾞｳﾔﾗ{fc}{nl:7}DARK QUEENｶﾞ{fc}{nl:5}ﾎﾝｷﾆﾅｯﾀ ﾖｳﾀﾞｿﾞ!"
+  },
+  {
+   "entry_id": 93,
+   "sym_hex": "20 20 20 20 20 20 20 20 C4 B3 A6 C9 CE DE DA 21 FC 87 42 41 54 54 4C 45 54 4F 41 44 21 FC 85 BF BC C3 20 44 41 52 4B 20 51 55 45 45 45 4E C4 FC 88 C0 B2 B9 C2 BD D9 DD C0 DE 21",
+   "text": "        ﾄｳｦﾉﾎﾞﾚ!{fc}{nl:7}BATTLETOAD!{fc}{nl:5}ｿｼﾃ DARK QUEEENﾄ{fc}{nl:8}ﾀｲｹﾂｽﾙﾝﾀﾞ!"
+  },
+  {
+   "entry_id": 94,
+   "sym_hex": "20 20 20 20 20 B6 DE DD CA DE DA A4 B6 DE DD CA DE DA 21 FC 87 42 41 54 54 4C 45 54 4F 41 44 21 FC 87 44 41 52 4B 20 51 55 45 45 4E A6 FC 89 CC DE AF C4 CA DE BE 21",
+   "text": "     ｶﾞﾝﾊﾞﾚ､ｶﾞﾝﾊﾞﾚ!{fc}{nl:7}BATTLETOAD!{fc}{nl:7}DARK QUEENｦ{fc}{nl:9}ﾌﾞｯﾄﾊﾞｾ!"
+  },
+  {
+   "entry_id": 95,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 BB B1 21 B2 D6 B2 D6 FC 84 50 49 4D 50 4C 45 C4 41 4E 47 45 4C 49 43 41 CB D2 A6 FC 87 BD B8 B2 C0 DE BD 20 C4 B7 B6 DE FC 88 B7 C0 D6 B3 C0 DE BF DE 21",
+   "text": "         ｻｱ!ｲﾖｲﾖ{fc}{nl:4}PIMPLEﾄANGELICAﾋﾒｦ{fc}{nl:7}ｽｸｲﾀﾞｽ ﾄｷｶﾞ{fc}{nl:8}ｷﾀﾖｳﾀﾞｿﾞ!"
+  },
+  {
+   "entry_id": 96,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 20 D4 AF C0 21 FC 83 D6 B8 D4 AF C0 BF DE 21 42 41 54 54 4C 45 54 4F 41 44 21 FC 89 BB B2 BA B3 C0 DE 21",
+   "text": "          ﾔｯﾀ!{fc}{nl:3}ﾖｸﾔｯﾀｿﾞ!BATTLETOAD!{fc}{nl:9}ｻｲｺｳﾀﾞ!"
+  },
+  {
+   "entry_id": 97,
+   "sym_hex": "20 20 20 50 49 4D 50 4C 45 D3 41 4E 47 45 4C 49 43 41 CB D2 D3 FC 88 CC DE BC DE C0 DE AF C0 BC FC 88 B2 B3 BA C4 C5 BC C0 DE 21 FC 87 D4 AF CA DF D8 20 B5 CF B4 C0 C1 CA FC 86 B3 C1 AD B3 B2 C1 C9 20 B6 B4 D9 C0 DE 21",
+   "text": "   PIMPLEﾓANGELICAﾋﾒﾓ{fc}{nl:8}ﾌﾞｼﾞﾀﾞｯﾀｼ{fc}{nl:8}ｲｳｺﾄﾅｼﾀﾞ!{fc}{nl:7}ﾔｯﾊﾟﾘ ｵﾏｴﾀﾁﾊ{fc}{nl:6}ｳﾁｭｳｲﾁﾉ ｶｴﾙﾀﾞ!"
+  },
+  {
+   "entry_id": 98,
+   "sym_hex": "20 20 20 20 20 20 B1 C9 44 41 52 4B 20 51 55 45 45 4E A6 FC 82 D0 BA DE C4 C6 20 B3 C1 CF B6 BC C3 BC CF B3 C9 C0 DE B6 D7 C5 21 FC 85 DC BC CA 20 CE DD C4 B3 C6 B3 DA BC B2 BF DE 21",
+   "text": "      ｱﾉDARK QUEENｦ{fc}{nl:2}ﾐｺﾞﾄﾆ ｳﾁﾏｶｼﾃｼﾏｳﾉﾀﾞｶﾗﾅ!{fc}{nl:5}ﾜｼﾊ ﾎﾝﾄｳﾆｳﾚｼｲｿﾞ!"
+  },
+  {
+   "entry_id": 99,
+   "sym_hex": "20 20 20 20 20 20 20 BB B1 20 50 41 52 54 59 C0 DE 21 FC 85 D0 DD C5 C3 DE 20 B6 DD CA DF B2 BC D6 B3 21 FC 83 D5 B3 B6 DD C5 42 41 54 54 4C 45 54 4F 41 44 C0 C1 C6 21",
+   "text": "       ｻｱ PARTYﾀﾞ!{fc}{nl:5}ﾐﾝﾅﾃﾞ ｶﾝﾊﾟｲｼﾖｳ!{fc}{nl:3}ﾕｳｶﾝﾅBATTLETOADﾀﾁﾆ!"
+  },
+  {
+   "entry_id": 100,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 20 20 B5 B2 21 FC 8A B5 CF B4 C0 C1 21 FC 88 C4 DE B3 BC C0 DD C0 DE 21",
+   "text": "           ｵｲ!{fc}{nl:10}ｵﾏｴﾀﾁ!{fc}{nl:8}ﾄﾞｳｼﾀﾝﾀﾞ!"
+  },
+  {
+   "entry_id": 101,
+   "sym_hex": "20 20 20 20 B5 CF B4 C0 C1 C9 20 BD B6 DE C0 B6 DE D0 B4 DD 21 FC 8B B5 B2 21 FC 86 B6 DE D2 DD C6 20 B5 CF B4 C0 C1 B6 DE FC 89 B3 C2 D7 DD BF DE 21",
+   "text": "    ｵﾏｴﾀﾁﾉ ｽｶﾞﾀｶﾞﾐｴﾝ!{fc}{nl:11}ｵｲ!{fc}{nl:6}ｶﾞﾒﾝﾆ ｵﾏｴﾀﾁｶﾞ{fc}{nl:9}ｳﾂﾗﾝｿﾞ!"
+  },
+  {
+   "entry_id": 102,
+   "sym_hex": "20 20 20 20 C5 DD C3 BA AF C0 21 D4 D7 DA C1 CF B3 C5 DD C3 21 FC 88 B5 CF B4 C0 C1 C9 CE B6 C6 FC 85 C0 DE DA B6 DE 50 49 4D 50 4C 45 C4 CB D2 A6 FC 88 C0 BD B9 D7 DA D9 DD C0 DE 21",
+   "text": "    ﾅﾝﾃｺｯﾀ!ﾔﾗﾚﾁﾏｳﾅﾝﾃ!{fc}{nl:8}ｵﾏｴﾀﾁﾉﾎｶﾆ{fc}{nl:5}ﾀﾞﾚｶﾞPIMPLEﾄﾋﾒｦ{fc}{nl:8}ﾀｽｹﾗﾚﾙﾝﾀﾞ!"
+  },
+  {
+   "entry_id": 103,
+   "sym_hex": "20 20 20 20 20 20 44 41 52 4B 20 51 55 45 45 4E D2 21 FC 88 B5 CE DE B4 C3 B2 DB D6 21 FC 8A D3 B3 B2 C1 C4 DE FC 86 C1 AE B3 BE DD BC C3 D4 D9 B6 D7 C5 21",
+   "text": "      DARK QUEENﾒ!{fc}{nl:8}ｵﾎﾞｴﾃｲﾛﾖ!{fc}{nl:10}ﾓｳｲﾁﾄﾞ{fc}{nl:6}ﾁｮｳｾﾝｼﾃﾔﾙｶﾗﾅ!"
+  },
+  {
+   "entry_id": 104,
+   "sym_hex": "20 20 20 20 20 D6 B3 BC 21 5A 49 54 5A 21 52 41 53 48 21 FC 86 D3 B3 B2 C1 C4 DE C1 AE B3 BE DD C0 DE 21 FC 84 44 41 52 4B 20 51 55 45 45 4E A6 CC DE C1 C9 D2 BE 21",
+   "text": "     ﾖｳｼ!ZITZ!RASH!{fc}{nl:6}ﾓｳｲﾁﾄﾞﾁｮｳｾﾝﾀﾞ!{fc}{nl:4}DARK QUEENｦﾌﾞﾁﾉﾒｾ!"
+  },
+  {
+   "entry_id": 105,
+   "sym_hex": "20 20 20 20 20 20 20 20 20 B5 CF B4 C0 C1 C6 CA FC 87 D1 BD DE B6 BC BD B7 DE C0 C9 B6 22 FC 84 B2 B2 D4 20 BF DD C5 BA C4 C5 C4 DE B1 D9 D3 DD B6 21 FC 88 BB B2 C1 AE B3 BE DD BC DB 21",
+   "text": "         ｵﾏｴﾀﾁﾆﾊ{fc}{nl:7}ﾑｽﾞｶｼｽｷﾞﾀﾉｶ\"{fc}{nl:4}ｲｲﾔ ｿﾝﾅｺﾄﾅﾄﾞｱﾙﾓﾝｶ!{fc}{nl:8}ｻｲﾁｮｳｾﾝｼﾛ!"
+  },
+  {
+   "entry_id": 106,
+   "sym_hex": "20 20 20 20 B0 D3 B3 20 C1 B6 D7 20 C2 B7 C1 CF AF C0 C9 B6 22 FC 86 B2 D4 20 C0 DE B2 BC AE B3 CC DE C0 DE 21 FC 84 B5 CF B4 C0 C1 C9 20 BF BA C1 DE B6 D7 A6 D0 BE DB 21",
+   "text": "    ｰﾓｳ ﾁｶﾗ ﾂｷﾁﾏｯﾀﾉｶ\"{fc}{nl:6}ｲﾔ ﾀﾞｲｼｮｳﾌﾞﾀﾞ!{fc}{nl:4}ｵﾏｴﾀﾁﾉ ｿｺﾁﾞｶﾗｦﾐｾﾛ!"
+  },
+  {
+   "entry_id": 107,
+   "sym_hex": "20 20 20 20 20 20 CA AF CA AF CA 21 BB BD B6 DE C0 DE 21 FC 87 42 41 54 54 4C 45 54 4F 41 44 21 FC 82 DC BC CA 20 BC DD BC DE C3 B2 C0 BF DE 21 B5 CF B4 C0 C1 B6 DE FC 88 B1 B7 D7 D2 D9 CA BD DE CA 20 FC 8A C5 B2 AF C3 C5 21",
+   "text": "      ﾊｯﾊｯﾊ!ｻｽｶﾞﾀﾞ!{fc}{nl:7}BATTLETOAD!{fc}{nl:2}ﾜｼﾊ ｼﾝｼﾞﾃｲﾀｿﾞ!ｵﾏｴﾀﾁｶﾞ{fc}{nl:8}ｱｷﾗﾒﾙﾊｽﾞﾊ {fc}{nl:10}ﾅｲｯﾃﾅ!"
+  },
+  {
+   "entry_id": 108,
+   "sym_hex": "20 20 20 20 20 20 20 B5 B5 21 B6 DC B2 BF B3 C6 21 FC 86 BB BF DE B8 D4 BC B2 C0 DE DB B3 C8 21 FC 83 CF B1 20 CA BC DE D2 B6 D7 20 DC C0 BC B6 DE B6 C2 BA C4 CA FC 85 B7 CF AF C3 C0 BA C4 20 C0 DE B9 C4 DE C8 21",
+   "text": "       ｵｵ!ｶﾜｲｿｳﾆ!{fc}{nl:6}ｻｿﾞｸﾔｼｲﾀﾞﾛｳﾈ!{fc}{nl:3}ﾏｱ ﾊｼﾞﾒｶﾗ ﾜﾀｼｶﾞｶﾂｺﾄﾊ{fc}{nl:5}ｷﾏｯﾃﾀｺﾄ ﾀﾞｹﾄﾞﾈ!"
+  },
+  {
+   "entry_id": 109,
+   "sym_hex": "20 20 20 20 20 20 20 20 CA 2D AF CA AF CA AF 21 FC 88 C4 B3 BE DE DD C0 DE C8 21 FC 83 BC AE BE DD 20 B5 CF B4 C0 C1 CA 20 CB D6 DC C5 B6 B4 D9 FC 88 C0 DE AF C0 AF C3 BA C4 BB 21 FC FC",
+   "text": "        ﾊ-ｯﾊｯﾊｯ!{fc}{nl:8}ﾄｳｾﾞﾝﾀﾞﾈ!{fc}{nl:3}ｼｮｾﾝ ｵﾏｴﾀﾁﾊ ﾋﾖﾜﾅｶｴﾙ{fc}{nl:8}ﾀﾞｯﾀｯﾃｺﾄｻ!{fc}{fc}"
+  },
+  {
+   "entry_id": 110,
+   "sym_hex": "20 20 20 20 20 20 20 B0 BA BA CF C3 DE BA DA C0 C9 D3 FC 88 C0 C0 DE B5 CF B4 C0 C1 B6 DE FC 84 C0 DD C6 20 C2 B2 C3 B2 C0 C0 DE B9 C9 BA C4 BB 21 FC 86 D3 B3 B2 C1 C4 DE BF C9 20 A2 C2 B7 A3 C6 FC 89 B6 B9 C3 D0 D9 B6 B2 22 FC 86 CF B1 20 C5 DD C4 DE D4 AF C3 D0 C3 D3 FC 86 B5 DD C5 BC DE C0 DE DB B3 B9 C4 DE C8 21 FC 88 CA 2D AF CA AF CA AF CA AF 21",
+   "text": "       ｰｺｺﾏﾃﾞｺﾚﾀﾉﾓ{fc}{nl:8}ﾀﾀﾞｵﾏｴﾀﾁｶﾞ{fc}{nl:4}ﾀﾝﾆ ﾂｲﾃｲﾀﾀﾞｹﾉｺﾄｻ!{fc}{nl:6}ﾓｳｲﾁﾄﾞｿﾉ ｢ﾂｷ｣ﾆ{fc}{nl:9}ｶｹﾃﾐﾙｶｲ\"{fc}{nl:6}ﾏｱ ﾅﾝﾄﾞﾔｯﾃﾐﾃﾓ{fc}{nl:6}ｵﾝﾅｼﾞﾀﾞﾛｳｹﾄﾞﾈ!{fc}{nl:8}ﾊ-ｯﾊｯﾊｯﾊｯ!"
+  },
+  {
+   "entry_id": 111,
+   "sym_hex": "20 20 20 20 20 20 BC DE C2 D8 AE B8 BC AE B3 CC DE C5 D7 FC 84 B2 C2 C3 DE D3 20 B1 B2 C3 C6 C5 AF C3 D4 D9 D6 21 FC 86 BF BC C3 20 DC C0 BC B6 DE 20 B6 AF C0 D7 FC 83 54 2E 42 49 52 44 C4 B2 AF BC AE C6 20 B5 CF B4 C0 C1 A6 FC 83 B8 AF C3 D4 D9 B6 D7 20 B6 B8 BA DE BD D9 DD C0 DE C8 21 FC 87 CA 2D AF CA AF CA AF CA AF 21 21",
+   "text": "      ｼﾞﾂﾘｮｸｼｮｳﾌﾞﾅﾗ{fc}{nl:4}ｲﾂﾃﾞﾓ ｱｲﾃﾆﾅｯﾃﾔﾙﾖ!{fc}{nl:6}ｿｼﾃ ﾜﾀｼｶﾞ ｶｯﾀﾗ{fc}{nl:3}T.BIRDﾄｲｯｼｮﾆ ｵﾏｴﾀﾁｦ{fc}{nl:3}ｸｯﾃﾔﾙｶﾗ ｶｸｺﾞｽﾙﾝﾀﾞﾈ!{fc}{nl:7}ﾊ-ｯﾊｯﾊｯﾊｯ!!"
+  },
+  {
+   "entry_id": 112,
+   "sym_hex": "20 20 20 20 20 20 B3 AF 21 22 BA C9 DC C0 BC B6 DE 21 FC 82 B3 C1 AD B3 C9 BC CA B2 BC AC 44 41 52 4B 20 51 55 45 45 4E B6 DE FC 89 D4 CC DE DA D9 C4 CA FC 82 BC B6 BC 20 B5 CE DE B4 C3 B2 DB 42 41 54 54 4C 45 54 4F 41 44 21 FC 84 B1 B8 CA 20 BE B2 B7 DE D6 D8 20 B2 C0 DE B2 C3 DE FC 84 D4 D0 CA 20 BE B2 B7 DE D6 D8 20 C2 D6 B2 C9 C0 DE 21 FC 83 DC C0 BC CA 20 BE DE AF C0 B2 20 BA B3 CC B8 BC C5 B2 21",
+   "text": "      ｳｯ!\"ｺﾉﾜﾀｼｶﾞ!{fc}{nl:2}ｳﾁｭｳﾉｼﾊｲｼｬDARK QUEENｶﾞ{fc}{nl:9}ﾔﾌﾞﾚﾙﾄﾊ{fc}{nl:2}ｼｶｼ ｵﾎﾞｴﾃｲﾛBATTLETOAD!{fc}{nl:4}ｱｸﾊ ｾｲｷﾞﾖﾘ ｲﾀﾞｲﾃﾞ{fc}{nl:4}ﾔﾐﾊ ｾｲｷﾞﾖﾘ ﾂﾖｲﾉﾀﾞ!{fc}{nl:3}ﾜﾀｼﾊ ｾﾞｯﾀｲ ｺｳﾌｸｼﾅｲ!"
+  },
+  {
+   "entry_id": 113,
+   "sym_hex": "20 20 20 DC C0 BC CA 20 B2 C2 B6 20 D3 C4 DE AF C3 B8 D9 BF DE 21 FC 88 BF BC C3 20 BA DD C4 DE BA BF FC 83 B5 CF B4 C0 C1 A6 20 D0 C5 BA DE DB BC C6 BC C3 D4 D9 21 FC 86 BF C9 C4 B7 CF C3 DE 20 CF AF C3 B2 DB 21 FC 87 42 41 54 54 4C 45 54 4F 41 44 21 FC 80 BA C9 20 BC DE AE B3 B5 B3 B6 DE 20 CC AF B6 C2 BD D9 C4 B7 CF C3 DE C8 21",
+   "text": "   ﾜﾀｼﾊ ｲﾂｶ ﾓﾄﾞｯﾃｸﾙｿﾞ!{fc}{nl:8}ｿｼﾃ ｺﾝﾄﾞｺｿ{fc}{nl:3}ｵﾏｴﾀﾁｦ ﾐﾅｺﾞﾛｼﾆｼﾃﾔﾙ!{fc}{nl:6}ｿﾉﾄｷﾏﾃﾞ ﾏｯﾃｲﾛ!{fc}{nl:7}BATTLETOAD!{fc}{nl:0}ｺﾉ ｼﾞｮｳｵｳｶﾞ ﾌｯｶﾂｽﾙﾄｷﾏﾃﾞﾈ!"
+  },
+  {
+   "entry_id": 114,
+   "sym_hex": "20 20 52 4F 42 4F 2D 4D 41 4E 55 53 22 C5 BB B9 C5 B2 D4 C2 D2 21 FC 87 DC C0 BC C6 20 B6 B5 A6 B5 D0 BE 21 FC 86 C0 B6 B6 DE 20 B6 B4 D9 BA DE C4 B7 C6 FC 85 B1 C0 CF A6 C2 CC DE BB DA B5 AF C3 A5 A5 A5 FC 8B CF B1 B2 B2 FC 86 B5 CF B4 D3 20 42 49 47 2D 42 4C 41 47 D3 FC 87 BD B8 DE C6 20 C5 B5 BC C3 D4 D9",
+   "text": "  ROBO-MANUS\"ﾅｻｹﾅｲﾔﾂﾒ!{fc}{nl:7}ﾜﾀｼﾆ ｶｵｦｵﾐｾ!{fc}{nl:6}ﾀｶｶﾞ ｶｴﾙｺﾞﾄｷﾆ{fc}{nl:5}ｱﾀﾏｦﾂﾌﾞｻﾚｵｯﾃ･･･{fc}{nl:11}ﾏｱｲｲ{fc}{nl:6}ｵﾏｴﾓ BIG-BLAGﾓ{fc}{nl:7}ｽｸﾞﾆ ﾅｵｼﾃﾔﾙ"
+  },
+  {
+   "entry_id": 115,
+   "sym_hex": "20 20 20 20 20 C5 BE DE 20 DC C0 BC C9 B6 DD CD DF B7 C5 FC 87 CE DE B3 B7 DE AE BF B3 C1 B6 DE FC 86 B6 B4 D9 C4 DE D3 C5 C4 DE C6 A5 A5 A5 FC 85 B5 D3 B2 C0 DE BC C3 D3 20 CA D7 B6 DE C0 C2 21 FC 83 C3 DE D3 20 BA C9 CF CF C6 CA 20 BC C3 B5 B6 C5 B2 DC 21 FC 85 B2 C2 B6 A5 A5 A5 B2 C2 B6 20 B6 C5 D7 BD DE FC 82 BC CA B2 BC AC C4 BC C3 20 44 41 52 4B 20 51 55 45 45 4E C9 C5 A6 FC 84 B3 C1 AD B3 C6 20 C4 C4 DE DB B6 BC C3 B8 DA D9 DC 21",
+   "text": "     ﾅｾﾞ ﾜﾀｼﾉｶﾝﾍﾟｷﾅ{fc}{nl:7}ﾎﾞｳｷﾞｮｿｳﾁｶﾞ{fc}{nl:6}ｶｴﾙﾄﾞﾓﾅﾄﾞﾆ･･･{fc}{nl:5}ｵﾓｲﾀﾞｼﾃﾓ ﾊﾗｶﾞﾀﾂ!{fc}{nl:3}ﾃﾞﾓ ｺﾉﾏﾏﾆﾊ ｼﾃｵｶﾅｲﾜ!{fc}{nl:5}ｲﾂｶ･･･ｲﾂｶ ｶﾅﾗｽﾞ{fc}{nl:2}ｼﾊｲｼｬﾄｼﾃ DARK QUEENﾉﾅｦ{fc}{nl:4}ｳﾁｭｳﾆ ﾄﾄﾞﾛｶｼﾃｸﾚﾙﾜ!"
+  },
+  {
+   "entry_id": 116,
+   "sym_hex": "52 41 47 4E 41 52 4F 4B 27 53 20 43 41 4E 59 4F 4E 20 57 4F 4F 4B 49 45 20 48 4F 4C 45 20 20 20 20 20 20 20 54 55 52 42 4F 20 54 55 4E 4E 45 4C 20 20 20 20 20 20 41 52 43 54 49 43 20 43 41 56 45 52 4E 53 20 20 20 20 53 55 52 46 20 43 49 54 59 20 20 20 20 20 20 20 20 20 4B 41 52 4E 41 54 48 27 53 20 4C 41 49 52 20 20 20 20 56 4F 4C 4B 4D 49 52 45 27 53 20 49 4E 46 45 52 4E 4F 49 4E 54 52 55 44 45 52 20 45 58 43 4C 55 44 45 52 20 54 45 52 52 41 20 54 55 42 45 53 20 20 20 20 20 20 20 52 41 54 20 52 41 43 45 20 20 20 20 20 20 20 20 20 20 43 4C 49 4E 47 45 52 2D 57 49 4E 47 45 52 20 20 20 20 54 48 45 20 52 45 56 4F 4C 55 54 49 4F 4E 20 20 20 20 41 52 4D 41 47 45 44 44 4F 4E 20 20 20 20 20 20 20 20",
+   "text": "RAGNAROK'S CANYON WOOKIE HOLE       TURBO TUNNEL      ARCTIC CAVERNS    SURF CITY         KARNATH'S LAIR    VOLKMIRE'S INFERNOINTRUDER EXCLUDER TERRA TUBES       RAT RACE          CLINGER-WINGER    THE REVOLUTION    ARMAGEDDON        "
+  }
+ ]
+}

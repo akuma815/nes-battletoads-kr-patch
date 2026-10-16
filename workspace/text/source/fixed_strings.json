@@ -1,0 +1,373 @@
+{
+ "table_id": "fixed_strings",
+ "source": {
+  "system": "uncompressed-bank6",
+  "renderer": "$DA00",
+  "block": "$DA3F..$DD07",
+  "rom_sha256": "B831F75C36EEF329A34D0E0D9308CDF85864EDD87E7DA6D8E408307F8BF402D8",
+  "format": "[ppu hi][ppu lo][chars...][00]",
+  "notes": "가나=JIS X 0201, ASCII=$DCE8 테이블. SURVEY.md A5. 제자리 교체 시 byte_len 이하 유지"
+ },
+ "entries": [
+  {
+   "entry_id": 0,
+   "cpu": "$DA3F",
+   "ppu": "$209F",
+   "raw_hex": "22",
+   "byte_len": 1,
+   "text": "\""
+  },
+  {
+   "entry_id": 1,
+   "cpu": "$DA43",
+   "ppu": "$229F",
+   "raw_hex": "22",
+   "byte_len": 1,
+   "text": "\""
+  },
+  {
+   "entry_id": 2,
+   "cpu": "$DA47",
+   "ppu": "$20EC",
+   "raw_hex": "50 52 45 53 45 4E 54 53",
+   "byte_len": 8,
+   "text": "PRESENTS"
+  },
+  {
+   "entry_id": 3,
+   "cpu": "$DA52",
+   "ppu": "$222F",
+   "raw_hex": "3D 3E",
+   "byte_len": 2,
+   "text": "=>"
+  },
+  {
+   "entry_id": 4,
+   "cpu": "$DA57",
+   "ppu": "$22EB",
+   "raw_hex": "50 52 4F 44 55 43 54 49 4F 4E",
+   "byte_len": 10,
+   "text": "PRODUCTION"
+  },
+  {
+   "entry_id": 5,
+   "cpu": "$DA64",
+   "ppu": "$20EC",
+   "raw_hex": "20 20 20 20 20 20 20 20",
+   "byte_len": 8,
+   "text": "        "
+  },
+  {
+   "entry_id": 6,
+   "cpu": "$DA6F",
+   "ppu": "$2104",
+   "raw_hex": "43 4F 50 59 52 49 47 48 54 20 31 39 39 31 20 52 41 52 45 20 4C 54 44 2E",
+   "byte_len": 24,
+   "text": "COPYRIGHT 1991 RARE LTD."
+  },
+  {
+   "entry_id": 7,
+   "cpu": "$DA8A",
+   "ppu": "$20CA",
+   "raw_hex": "20 20 20 20 20 20 20 20 20 20 20 20",
+   "byte_len": 12,
+   "text": "            "
+  },
+  {
+   "entry_id": 8,
+   "cpu": "$DA99",
+   "ppu": "$2104",
+   "raw_hex": "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20",
+   "byte_len": 24,
+   "text": "                        "
+  },
+  {
+   "entry_id": 9,
+   "cpu": "$DAB4",
+   "ppu": "$2186",
+   "raw_hex": "42 20 41 20 54 20 54 20 4C 20 45 20 54 20 4F 20 41 20 44 20 53",
+   "byte_len": 21,
+   "text": "B A T T L E T O A D S"
+  },
+  {
+   "entry_id": 10,
+   "cpu": "$DACC",
+   "ppu": "$21CC",
+   "raw_hex": "53 54 41 52 52 49 4E 47",
+   "byte_len": 8,
+   "text": "STARRING"
+  },
+  {
+   "entry_id": 11,
+   "cpu": "$DAD7",
+   "ppu": "$222C",
+   "raw_hex": "31 20 20 50 4C 41 59 45 52",
+   "byte_len": 9,
+   "text": "1  PLAYER"
+  },
+  {
+   "entry_id": 12,
+   "cpu": "$DAE3",
+   "ppu": "$226C",
+   "raw_hex": "32 20 20 50 4C 41 59 45 52 53",
+   "byte_len": 10,
+   "text": "2  PLAYERS"
+  },
+  {
+   "entry_id": 13,
+   "cpu": "$DAF0",
+   "ppu": "$22C7",
+   "raw_hex": "50 52 45 53 53 20 53 54 41 52 54 20 54 4F 20 50 4C 41 59",
+   "byte_len": 19,
+   "text": "PRESS START TO PLAY"
+  },
+  {
+   "entry_id": 14,
+   "cpu": "$DB06",
+   "ppu": "$2305",
+   "raw_hex": "43 4F 50 59 52 49 47 48 54 20 31 39 39 31 20 52 41 52 45 20 4C 54 44 2E",
+   "byte_len": 24,
+   "text": "COPYRIGHT 1991 RARE LTD."
+  },
+  {
+   "entry_id": 15,
+   "cpu": "$DB21",
+   "ppu": "$2349",
+   "raw_hex": "4C 49 43 45 4E 43 45 44 20 54 4F 20 4E 43 53",
+   "byte_len": 15,
+   "text": "LICENCED TO NCS"
+  },
+  {
+   "entry_id": 16,
+   "cpu": "$DB33",
+   "ppu": "$2367",
+   "raw_hex": "42 59 20 52 41 52 45 20 43 4F 49 4E 2D 49 54 2C 49 4E 43 2E",
+   "byte_len": 20,
+   "text": "BY RARE COIN-IT,INC."
+  },
+  {
+   "entry_id": 17,
+   "cpu": "$DB4A",
+   "ppu": "$2342",
+   "raw_hex": "4C 45 56 45 4C 20",
+   "byte_len": 6,
+   "text": "LEVEL "
+  },
+  {
+   "entry_id": 18,
+   "cpu": "$DB53",
+   "ppu": "$20C7",
+   "raw_hex": "50 4C 41 59 45 52 20 20 2A",
+   "byte_len": 9,
+   "text": "PLAYER  *"
+  },
+  {
+   "entry_id": 19,
+   "cpu": "$DB5F",
+   "ppu": "$212C",
+   "raw_hex": "47 41 4D 45 20 4F 56 45 52",
+   "byte_len": 9,
+   "text": "GAME OVER"
+  },
+  {
+   "entry_id": 20,
+   "cpu": "$DB6B",
+   "ppu": "$21C7",
+   "raw_hex": "50 4C 41 59 45 52 20 20 29",
+   "byte_len": 9,
+   "text": "PLAYER  )"
+  },
+  {
+   "entry_id": 21,
+   "cpu": "$DB77",
+   "ppu": "$222C",
+   "raw_hex": "47 41 4D 45 20 4F 56 45 52",
+   "byte_len": 9,
+   "text": "GAME OVER"
+  },
+  {
+   "entry_id": 22,
+   "cpu": "$DB83",
+   "ppu": "$22CA",
+   "raw_hex": "50 52 45 53 53 20 20 42 55 54 54 4F 4E",
+   "byte_len": 13,
+   "text": "PRESS  BUTTON"
+  },
+  {
+   "entry_id": 23,
+   "cpu": "$DB93",
+   "ppu": "$230B",
+   "raw_hex": "54 4F 20 43 4F 4E 54 49 4E 55 45",
+   "byte_len": 11,
+   "text": "TO CONTINUE"
+  },
+  {
+   "entry_id": 24,
+   "cpu": "$DBA1",
+   "ppu": "$2350",
+   "raw_hex": "28",
+   "byte_len": 1,
+   "text": "("
+  },
+  {
+   "entry_id": 25,
+   "cpu": "$DBA5",
+   "ppu": "$22CC",
+   "raw_hex": "B6 DE A5 A5 A5",
+   "byte_len": 5,
+   "text": "ｶﾞ･･･"
+  },
+  {
+   "entry_id": 26,
+   "cpu": "$DBAD",
+   "ppu": "$20A7",
+   "raw_hex": "20 20 20 20 20 20 2D 53 54 4F 52 59 2D 20 20 20 20 20 20",
+   "byte_len": 19,
+   "text": "      -STORY-      "
+  },
+  {
+   "entry_id": 27,
+   "cpu": "$DBC3",
+   "ppu": "$2204",
+   "raw_hex": "20 B1 D9 CB 20 41 4E 47 45 4C 49 43 41 CB D2 C4 50 49 4D 50 4C 45 CA",
+   "byte_len": 23,
+   "text": " ｱﾙﾋ ANGELICAﾋﾒﾄPIMPLEﾊ"
+  },
+  {
+   "entry_id": 28,
+   "cpu": "$DBDD",
+   "ppu": "$2265",
+   "raw_hex": "42 41 54 54 4C 45 54 4F 41 44 53 BE B2 CD 20 C3 DE B6 B9 CF BC C0",
+   "byte_len": 22,
+   "text": "BATTLETOADSｾｲﾍ ﾃﾞｶｹﾏｼﾀ"
+  },
+  {
+   "entry_id": 29,
+   "cpu": "$DBF6",
+   "ppu": "$2089",
+   "raw_hex": "20 BF BA C6 CA A4 D4 D0 C9 20 BC DE AE B3 B5 B3",
+   "byte_len": 16,
+   "text": " ｿｺﾆﾊ､ﾔﾐﾉ ｼﾞｮｳｵｳ"
+  },
+  {
+   "entry_id": 30,
+   "cpu": "$DC09",
+   "ppu": "$20E7",
+   "raw_hex": "44 41 52 4B 20 51 55 45 45 4E B6 DE CF C1 CC DE BE C3 B2 C3",
+   "byte_len": 20,
+   "text": "DARK QUEENｶﾞﾏﾁﾌﾞｾﾃｲﾃ"
+  },
+  {
+   "entry_id": 31,
+   "cpu": "$DC20",
+   "ppu": "$214C",
+   "raw_hex": "CC C0 D8 A6 20 C2 B6 CF B4 C3",
+   "byte_len": 10,
+   "text": "ﾌﾀﾘｦ ﾂｶﾏｴﾃ"
+  },
+  {
+   "entry_id": 32,
+   "cpu": "$DC2D",
+   "ppu": "$21AB",
+   "raw_hex": "C2 DA BB AF C3 BC CF B2 CF BC C0",
+   "byte_len": 11,
+   "text": "ﾂﾚｻｯﾃｼﾏｲﾏｼﾀ"
+  },
+  {
+   "entry_id": 33,
+   "cpu": "$DC3B",
+   "ppu": "$20A7",
+   "raw_hex": "20 B2 AF CE DF B3 20 42 41 54 54 4C 45 54 4F 41 44 C9",
+   "byte_len": 18,
+   "text": " ｲｯﾎﾟｳ BATTLETOADﾉ"
+  },
+  {
+   "entry_id": 34,
+   "cpu": "$DC50",
+   "ppu": "$210A",
+   "raw_hex": "B7 C1 C3 DE B1 D9 20 B3 C1 AD B3 BE DD",
+   "byte_len": 13,
+   "text": "ｷﾁﾃﾞｱﾙ ｳﾁｭｳｾﾝ"
+  },
+  {
+   "entry_id": 35,
+   "cpu": "$DC60",
+   "ppu": "$2168",
+   "raw_hex": "56 55 4C 54 55 52 45 BA DE B3 20 C3 DE CA A5 A5 A5",
+   "byte_len": 17,
+   "text": "VULTUREｺﾞｳ ﾃﾞﾊ･･･"
+  },
+  {
+   "entry_id": 36,
+   "cpu": "$DC74",
+   "ppu": "$2089",
+   "raw_hex": "20 BF BC C3 20 BC DE AE B3 B5 B3 C9 BE DD B6 DD",
+   "byte_len": 16,
+   "text": " ｿｼﾃ ｼﾞｮｳｵｳﾉｾﾝｶﾝ"
+  },
+  {
+   "entry_id": 37,
+   "cpu": "$DC87",
+   "ppu": "$20CC",
+   "raw_hex": "47 41 52 47 41 4E 54 55 41 CA",
+   "byte_len": 10,
+   "text": "GARGANTUAﾊ"
+  },
+  {
+   "entry_id": 38,
+   "cpu": "$DC94",
+   "ppu": "$2109",
+   "raw_hex": "B7 DE DD B6 DE C9 20 D0 BC D7 C7 B8 B3 B6 DD",
+   "byte_len": 15,
+   "text": "ｷﾞﾝｶﾞﾉ ﾐｼﾗﾇｸｳｶﾝ"
+  },
+  {
+   "entry_id": 39,
+   "cpu": "$DCA6",
+   "ppu": "$214B",
+   "raw_hex": "A2 44 41 52 4B 20 5A 4F 4E 45 A3",
+   "byte_len": 11,
+   "text": "｢DARK ZONE｣"
+  },
+  {
+   "entry_id": 40,
+   "cpu": "$DCB4",
+   "ppu": "$218C",
+   "raw_hex": "C6 B1 D9 20 B7 C1 CD C4",
+   "byte_len": 8,
+   "text": "ﾆｱﾙ ｷﾁﾍﾄ"
+  },
+  {
+   "entry_id": 41,
+   "cpu": "$DCBF",
+   "ppu": "$21CA",
+   "raw_hex": "BA B3 C0 B2 BC C3 D5 B7 CF BC C0 A5 A5 A5",
+   "byte_len": 14,
+   "text": "ｺｳﾀｲｼﾃﾕｷﾏｼﾀ･･･"
+  },
+  {
+   "entry_id": 42,
+   "cpu": "$DCD0",
+   "ppu": "$2227",
+   "raw_hex": "CC B8 BC AD B3 C9 BC DE AD DD CB DE A6 BD D9 C0 D2 C6 A5 A5 A5",
+   "byte_len": 21,
+   "text": "ﾌｸｼｭｳﾉｼﾞｭﾝﾋﾞｦｽﾙﾀﾒﾆ･･･"
+  },
+  {
+   "entry_id": 43,
+   "cpu": "$DCE8",
+   "ppu": "$20AB",
+   "raw_hex": "4D 45 47 41 20 20 57 41 52 50",
+   "byte_len": 10,
+   "text": "MEGA  WARP"
+  },
+  {
+   "entry_id": 44,
+   "cpu": "$DCF5",
+   "ppu": "$2128",
+   "raw_hex": "41 44 56 41 4E 43 45 20 32 20 4C 45 56 45 4C 53",
+   "byte_len": 16,
+   "text": "ADVANCE 2 LEVELS"
+  }
+ ]
+}

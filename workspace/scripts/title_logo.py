@@ -371,10 +371,15 @@ def build_logo_stream(save_assets: bool = False) -> tuple[bytes, bytes, dict[str
     if consumed != PACKED_END - PACKED_START:
         raise SystemExit(f"원본 스트림 경계 불일치: {consumed} != {PACKED_END - PACKED_START}")
 
-    chr_dump = (EVIDENCE / "chr_ram_0000_1fff.bin").read_bytes()
-    if original_raw != chr_dump[PATTERN_BASE : PATTERN_BASE + RAW_SIZE]:
-        raise SystemExit("원본 디코드와 타이틀 런타임 CHR-RAM 덤프 불일치")
-    nametable = (EVIDENCE / "nametable_0000_03ff.bin").read_bytes()
+    # Preserve the verified tile layout as a build input, independent of QA dumps.
+    layout = json.loads((ASSETS / "title_layout.json").read_text(encoding="utf-8"))
+    if layout["sourceROM_SHA256"].upper() != EXPECTED_ROM_SHA256:
+        raise SystemExit("Title layout targets another ROM revision")
+    if sha256(original_raw).lower() != layout["decodedLogoSHA256"]:
+        raise SystemExit("Decoded source logo differs from the verified baseline")
+    nametable = bytes(layout["nametable"])
+    if len(nametable) != 1024 or sha256(nametable).lower() != layout["nametableSHA256"]:
+        raise SystemExit("Title tile layout hash mismatch")
 
     original_image = render_tiles(original_raw, nametable)
     concept = make_concept(original_image)
@@ -392,7 +397,8 @@ def build_logo_stream(save_assets: bool = False) -> tuple[bytes, bytes, dict[str
 
     info: dict[str, object] = {
         "source_rom_sha256": sha256(original_rom),
-        "runtime_chr_sha256": sha256(chr_dump),
+        "runtime_chr_sha256": layout["historicalRuntimeChrSHA256"].upper(),
+        "runtime_evidence": "historical capture; no new runtime verification",
         "packed_source": {"start": PACKED_START, "end": PACKED_END, "size": len(packed_region)},
         "packed_target_size": len(packed),
         "raw_roundtrip": True,

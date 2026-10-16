@@ -12,9 +12,11 @@
 """
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 from collections import Counter
+from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -26,7 +28,7 @@ from dis6502 import disasm
 
 OUT_ROM = btlib.ROOT / "build" / "Battletoads_KR_dev.nes"
 REPORT = btlib.ROOT / "build" / "build_report.txt"
-FONT_TTF = btlib.ROOT.parents[1] / "Font" / "Galmuri8x8.ttf"
+FONT_TTF = btlib.ROOT / "inputs" / "Galmuri8x8.ttf"
 
 BANK = 0x8000
 B6 = 6 * BANK
@@ -208,7 +210,23 @@ def build_system2(
 
 
 def main() -> None:
-    prg = btlib.load_prg()
+    global OUT_ROM, REPORT
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--source-rom', type=Path, default=btlib.ROM_PATH)
+    parser.add_argument('--output-dir', type=Path, help='New output folder (must not exist)')
+    args = parser.parse_args()
+    btlib.ROM_PATH = args.source_rom.resolve()
+    title_logo.ORIGINAL = btlib.ROM_PATH
+    prg = btlib.load_prg(btlib.ROM_PATH)
+    if hashlib.sha256(FONT_TTF.read_bytes()).hexdigest() != '97ba3dcc2cd5e5b2927e4e6ba9558a48a2a194a852c420df160654d66bbf2a05':
+        raise SystemExit('Pinned Galmuri8x8 font hash mismatch')
+    if args.output_dir:
+        output = args.output_dir.resolve()
+        if output.exists():
+            raise SystemExit('Use a new output directory; existing results are never overwritten.')
+        OUT_ROM = output / OUT_ROM.name
+        REPORT = output / REPORT.name
+    OUT_ROM.parent.mkdir(parents=True, exist_ok=True)
     report: list[str] = []
     add = report.append
 

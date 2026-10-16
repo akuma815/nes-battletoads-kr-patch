@@ -39,3 +39,5 @@
 ## 소스 및 작업 기록
 
 [공개 소스 구성과 빌드 전제](docs/SOURCE_GUIDE.md) · [상세 패치 안내](docs/PATCH_GUIDE.txt)
+
+[최종판 재빌드 안내](docs/rebuild/README.md): 필요한 JSON·타이틀 원화·폰트를 포함했습니다. 별도로 준비한 지원 일본판 원본 ROM과 Python으로 최종 배포본을 재현할 수 있습니다.

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-16",
+  "status": "PASS",
+  "sourceSHA256": "b831f75c36eef329a34d0e0d9308cdf85864edd87e7da6d8e408307f8bf402d8",
+  "targetSHA256": "300d7a335e404fcba4522d21ab58af1dc77140dd7c4a6de4ea7331e50b6e5090",
+  "sourceBytes": 262160,
+  "targetBytes": 524304,
+  "gitPlusSeparateOriginalBuild": "PASS",
+  "sourceUnchanged": true,
+  "publishedReleaseApplyPS1": "PASS",
+  "releaseZipSHA256": "86dd32f5de27353f1f0df40c278d83072140d2576ec575654ae2f3d4a1e218b6",
+  "briefingRoundtrip": "120/120",
+  "fixedStringsVerified": 45,
+  "runtime": "not newly performed; historical evidence only",
+  "wrongSourceRejected": true,
+  "existingOutputRejected": true
+}
